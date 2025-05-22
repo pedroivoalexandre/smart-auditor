@@ -1,0 +1,5 @@
+# Preencher com pip freeze > requirements.txt ap�s instalar os pacotes
+fastapi
+uvicorn
+python-dotenv
+google-generativeai
