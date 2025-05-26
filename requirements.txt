@@ -1,5 +1,11 @@
-# Preencher com pip freeze > requirements.txt ap�s instalar os pacotes
-fastapi
-uvicorn
-python-dotenv
-google-generativeai
+# Dependências principais do projeto Smart Auditor
+fastapi                  # Framework web leve para API
+uvicorn                  # Servidor ASGI para rodar FastAPI
+requests                 # Enviar requisições HTTP para a API local
+PyMuPDF                  # Extração de texto de arquivos PDF
+python-dotenv            # Carregar variáveis de ambiente do .env
+
+# Integração com Gmail API (OAuth2 e acesso à conta)
+google-auth              # Autenticação e credenciais
+google-auth-oauthlib     # Fluxo OAuth2 para apps desktop
+google-api-python-client # Cliente da API Gmail e outras APIs Google
