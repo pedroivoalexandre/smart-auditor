@@ -1,11 +1,20 @@
-# Dependências principais do projeto Smart Auditor
-fastapi                  # Framework web leve para API
-uvicorn                  # Servidor ASGI para rodar FastAPI
-requests                 # Enviar requisições HTTP para a API local
-PyMuPDF                  # Extração de texto de arquivos PDF
-python-dotenv            # Carregar variáveis de ambiente do .env
+# === Backend com FastAPI ===
+fastapi         # Framework principal da API
+uvicorn         # Servidor ASGI para rodar a API localmente
 
-# Integração com Gmail API (OAuth2 e acesso à conta)
-google-auth              # Autenticação e credenciais
-google-auth-oauthlib     # Fluxo OAuth2 para apps desktop
-google-api-python-client # Cliente da API Gmail e outras APIs Google
+# === Requisições HTTP internas ===
+requests        # Usado para enviar arquivos para a API local
+
+# === Variáveis de ambiente ===
+python-dotenv   # Carrega o arquivo .env com chaves e senhas
+
+# === Leitura e extração de texto de arquivos PDF ===
+PyMuPDF         # Biblioteca (fitz) usada para extrair texto dos PDFs
+
+# === Geração de PDF simples ===
+fpdf            # Utilizado no script de envio de e-mails com anexo
+
+# === Integração com Gmail API (email_reader.py) ===
+google-auth                 # Autenticação segura com OAuth
+google-auth-oauthlib        # Flow de autorização OAuth 2.0
+google-api-python-client    # Acesso à API do Gmail
