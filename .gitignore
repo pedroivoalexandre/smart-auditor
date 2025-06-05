@@ -9,3 +9,6 @@ __pycache__/
 *.pyo
 *.log
 *.env
+
+credentials.json
+token.json
