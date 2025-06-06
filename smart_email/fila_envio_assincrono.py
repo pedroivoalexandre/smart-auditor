@@ -11,13 +11,14 @@ def worker_envio():
         tarefa = fila_envio.get()
         if tarefa is None:
             print("🛑 Worker finalizado.")
+            fila_envio.task_done()
             break
         try:
-            print("🚀 Executando tarefa de envio...")
+            print(f"🚀 Executando tarefa de envio para: {tarefa}")
             enviar_em_lote()
-            print("✅ Envio concluído.")
+            print(f"✅ Envio concluído para: {tarefa}")
         except Exception as e:
-            print(f"❌ Erro ao enviar: {e}")
+            print(f"❌ Erro ao enviar para {tarefa}: {e}")
         finally:
             fila_envio.task_done()
 
@@ -26,8 +27,8 @@ def iniciar_worker():
     thread.start()
     return thread
 
-def adicionar_tarefa_envio():
-    fila_envio.put("enviar")
+def adicionar_tarefa_envio(destinatario: str):
+    fila_envio.put(destinatario)
 
 def finalizar_worker(thread):
     fila_envio.put(None)
