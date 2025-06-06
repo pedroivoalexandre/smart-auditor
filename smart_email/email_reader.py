@@ -57,6 +57,14 @@ def enviar_para_fastapi(lista_verificacao, anexos):
     print("🧾 Relatório gerado:")
     print(resposta.json().get('relatorio'))
 
+def ler_lista_verificacao_pdf(mensagem_id, gmail_service):
+    """
+    Interface compatível esperada por módulos que chamam 'ler_lista_verificacao_pdf'.
+    Retorna apenas a string da lista de verificação.
+    """
+    lista_verificacao, _ = extrair_corpo_e_anexos(gmail_service, mensagem_id)
+    return lista_verificacao
+
 if __name__ == '__main__':
     service = autenticar_gmail()
     mensagens = buscar_emails(service)

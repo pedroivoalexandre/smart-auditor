@@ -1,0 +1,38 @@
+{
+  "folders": [
+    {
+      "name": "smart-auditor-org",
+      "path": "."
+    },
+    {
+      "name": "smart-config",
+      "path": "smart-config"
+    },
+    {
+      "name": "smart-core",
+      "path": "smart-core"
+    },
+    {
+      "name": "smart-email",
+      "path": "smart-email"
+    },
+    {
+      "name": "smart-verificacao",
+      "path": "smart-verificacao"
+    },
+    {
+      "name": "smart-documentos",
+      "path": "smart-documentos"
+    },
+    {
+      "name": "smart-utils",
+      "path": "smart-utils"
+    }
+  ],
+  "settings": {
+    "python.pythonPath": "venv/Scripts/python.exe",
+    "files.exclude": {
+      "**/__pycache__": true
+    }
+  }
+}

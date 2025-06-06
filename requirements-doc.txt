@@ -1,0 +1,24 @@
+# === Backend com FastAPI ===
+fastapi                 # Framework principal da API
+uvicorn                 # Servidor ASGI para rodar a API localmente
+
+# === Requisições HTTP internas ===
+requests                # Usado para enviar arquivos para a API local
+
+# === Variáveis de ambiente ===
+python-dotenv           # Carrega o arquivo .env com chaves e senhas
+
+# === Leitura e extração de texto de arquivos PDF ===
+PyMuPDF                 # Biblioteca (fitz) usada para extrair texto dos PDFs
+
+# === Geração de PDF simples ===
+fpdf                    # Utilizado no script de envio de e-mails com anexo
+
+# === Integração com Gmail API (email_reader.py) ===
+google-auth             # Autenticação segura com OAuth
+google-auth-oauthlib    # Flow de autorização OAuth 2.0
+google-api-python-client# Acesso à API do Gmail
+
+# === Testes ===
+pytest                  # Execução de testes unitários e integração
+pytest-asyncio          # Suporte a testes assíncronos com pytest
