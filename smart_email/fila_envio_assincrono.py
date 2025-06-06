@@ -1,27 +1,34 @@
-import asyncio
+import threading
+import queue
+import time
 from smart_email.enviar_em_lote import enviar_em_lote
 
-fila = asyncio.Queue()
+# Fila global para envio de emails
+fila_envio = queue.Queue()
 
-async def worker_envio(id_worker):
+def worker_envio():
     while True:
-        tarefa = await fila.get()
+        tarefa = fila_envio.get()
+        if tarefa is None:
+            print("🛑 Worker finalizado.")
+            break
         try:
-            print(f"👷 Worker {id_worker} enviando: {tarefa['destinatario']}")
-            await enviar_email_com_anexo(**tarefa)
+            print("🚀 Executando tarefa de envio...")
+            enviar_em_lote()
+            print("✅ Envio concluído.")
         except Exception as e:
-            print(f"❌ Erro no envio para {tarefa['destinatario']}: {e}")
+            print(f"❌ Erro ao enviar: {e}")
         finally:
-            fila.task_done()
+            fila_envio.task_done()
 
-async def adicionar_tarefa(destinatario, assunto, corpo, anexo):
-    await fila.put({
-        'destinatario': destinatario,
-        'assunto': assunto,
-        'corpo': corpo,
-        'anexo': anexo
-    })
+def iniciar_worker():
+    thread = threading.Thread(target=worker_envio, daemon=True)
+    thread.start()
+    return thread
 
-async def iniciar_workers(n=3):
-    for i in range(n):
-        asyncio.create_task(worker_envio(i + 1))
+def adicionar_tarefa_envio():
+    fila_envio.put("enviar")
+
+def finalizar_worker(thread):
+    fila_envio.put(None)
+    thread.join()

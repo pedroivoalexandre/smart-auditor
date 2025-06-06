@@ -1,34 +1,24 @@
-import pytest
-import asyncio
-from unittest.mock import AsyncMock
 import smart_email.fila_envio_assincrono as fila_mod
 
-# ✅ Teste de envio de email com mock
-@pytest.mark.asyncio
-async def test_envio_de_email_simulado():
-    # Mocka a função real de envio
-    mock_enviar = AsyncMock()
-    fila_mod.enviar_email_com_anexo = mock_enviar
+def test_envio_de_email_simulado(capsys):
+    """
+    Testa se a fila de envio executa corretamente e imprime as mensagens esperadas.
+    """
+    # Inicia o worker em segundo plano
+    thread = fila_mod.iniciar_worker()
 
-    # Zera a fila antiga e cria uma nova para isolar o teste
-    fila_mod.fila = asyncio.Queue()
+    # Adiciona uma tarefa de envio
+    fila_mod.adicionar_tarefa_envio()
 
-    # Inicia apenas 1 worker para o teste (evita concorrência no mock)
-    asyncio.create_task(fila_mod.worker_envio(id_worker=1))
+    # Aguarda o processamento da fila
+    fila_mod.fila_envio.join()
 
-    # Tarefa simulada
-    tarefa = {
-        'destinatario': 'teste@exemplo.com',
-        'assunto': 'Assunto Teste',
-        'corpo': 'Este é um teste.',
-        'anexo': 'teste.pdf'
-    }
+    # Finaliza o worker
+    fila_mod.finalizar_worker(thread)
 
-    # Adiciona a tarefa à fila
-    await fila_mod.fila.put(tarefa)
+    # Captura o que foi impresso no console
+    captured = capsys.readouterr()
 
-    # Aguarda o worker processar a tarefa
-    await asyncio.sleep(1.5)
-
-    # Verifica se o mock foi chamado exatamente com os dados esperados
-    mock_enviar.assert_awaited_once_with(**tarefa)
+    # Verifica se a saída contém as mensagens esperadas
+    assert "🚀 Executando tarefa de envio..." in captured.out
+    assert "✅ Envio concluído." in captured.out
