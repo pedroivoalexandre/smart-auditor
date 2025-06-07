@@ -30,7 +30,6 @@ async def gerar_resposta(prompt_input: PromptInput):
         resposta = model.generate_content(prompt_input.prompt)
         return {"resposta": resposta.text}
     except Exception as e:
-        print("❌ Erro ao gerar resposta:", e)
         raise HTTPException(status_code=500, detail=str(e))
 
 # === ROTA /verificar ===
@@ -51,7 +50,6 @@ async def verificar_documento(
         return {"relatorio": resposta.text}
 
     except Exception as e:
-        print("❌ Erro ao processar:", e)
         raise HTTPException(status_code=500, detail=str(e))
 
 # === Função auxiliar: leitura de PDF ===
@@ -64,7 +62,7 @@ def extrair_texto_pdf(conteudo: bytes) -> str:
 
 # === Função auxiliar: carregar o template do prompt ===
 def carregar_prompt(lista_verificacao: str, texto_extraido: str) -> str:
-    caminho = Path("prompt_verificacao.txt")
+    caminho = Path("smart_verificacao/prompt_verificacao.txt")
     if not caminho.exists():
         raise RuntimeError("❌ Arquivo prompt_verificacao.txt não encontrado.")
     template = caminho.read_text(encoding="utf-8")
@@ -77,3 +75,34 @@ def carregar_prompt(lista_verificacao: str, texto_extraido: str) -> str:
 @app.get("/status", summary="Verificar se a API está online")
 def status():
     return {"status": "online", "modelo": "gemini-1.5-flash"}
+
+# === Integração com fila assíncrona ===
+from smart_email.fila_envio_assincrono import iniciar_worker, finalizar_worker, adicionar_tarefa_envio
+import atexit
+
+# Inicializa o worker de envio de email
+worker_thread = iniciar_worker()
+atexit.register(lambda: finalizar_worker(worker_thread))
+
+# === ROTA /teste-envio ===
+@app.post("/teste-envio", summary="Simula adição de tarefa de envio à fila")
+def teste_envio():
+    adicionar_tarefa_envio({
+        "destinatario": "destinatario@teste.com",
+        "assunto": "Assunto de Teste",
+        "corpo": "Este é o corpo do e-mail.",
+        "caminho_anexo": "arquivo.pdf"
+    })
+    return {"mensagem": "📬 Tarefa de envio adicionada à fila."}
+
+# === NOVA ROTA /verificar-memoria ===
+from smart_email.modelos import VerificacaoRequest
+from smart_email.verificacao_memoria import processar_verificacao_em_memoria
+
+@app.post("/verificar-memoria", summary="Verifica documentos em memória com base na lista de verificação")
+def verificar_em_memoria(requisicao: VerificacaoRequest):
+    try:
+        relatorio = processar_verificacao_em_memoria(requisicao)
+        return {"relatorio": relatorio}
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))

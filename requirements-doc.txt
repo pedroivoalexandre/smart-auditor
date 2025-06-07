@@ -1,24 +1,27 @@
 # === Backend com FastAPI ===
-fastapi                 # Framework principal da API
-uvicorn                 # Servidor ASGI para rodar a API localmente
+fastapi==0.115.12
+uvicorn==0.34.3
 
 # === Requisições HTTP internas ===
-requests                # Usado para enviar arquivos para a API local
+requests==2.32.3
 
 # === Variáveis de ambiente ===
-python-dotenv           # Carrega o arquivo .env com chaves e senhas
+python-dotenv==1.1.0
 
 # === Leitura e extração de texto de arquivos PDF ===
-PyMuPDF                 # Biblioteca (fitz) usada para extrair texto dos PDFs
+PyMuPDF==1.26.0
 
 # === Geração de PDF simples ===
-fpdf                    # Utilizado no script de envio de e-mails com anexo
+fpdf==1.7.2
 
 # === Integração com Gmail API (email_reader.py) ===
-google-auth             # Autenticação segura com OAuth
-google-auth-oauthlib    # Flow de autorização OAuth 2.0
-google-api-python-client# Acesso à API do Gmail
+google-auth==2.40.3
+google-auth-oauthlib==1.2.2
+google-api-python-client==2.171.0
+
+# === Gemini / Google Generative AI ===
+google-generativeai==0.5.4
 
 # === Testes ===
-pytest                  # Execução de testes unitários e integração
-pytest-asyncio          # Suporte a testes assíncronos com pytest
+pytest==8.4.0
+pytest-asyncio==1.0.0

@@ -1,14 +1,13 @@
 import os
 import base64
-import requests
-from email import message_from_bytes
+from email import message_from_bytes, message_from_string, EmailMessage
 from google.auth.transport.requests import Request
 from google_auth_oauthlib.flow import InstalledAppFlow
 from googleapiclient.discovery import build
 from google.oauth2.credentials import Credentials
 from pathlib import Path
+from typing import Tuple, List
 
-# Escopo de acesso apenas à leitura do Gmail
 SCOPES = ['https://www.googleapis.com/auth/gmail.readonly']
 
 def autenticar_gmail():
@@ -31,46 +30,49 @@ def buscar_emails(gmail_service, assunto_filtro="verificação"):
         q=f'subject:{assunto_filtro} has:attachment',
         maxResults=1
     ).execute()
-    mensagens = resultados.get('messages', [])
-    return mensagens
+    return resultados.get('messages', [])
 
 def extrair_corpo_e_anexos(gmail_service, mensagem_id):
     mensagem = gmail_service.users().messages().get(userId='me', id=mensagem_id, format='raw').execute()
     msg_raw = base64.urlsafe_b64decode(mensagem['raw'].encode('UTF-8'))
     mime_msg = message_from_bytes(msg_raw)
-    lista_verificacao = mime_msg.get_payload()[0].get_payload(decode=True).decode('utf-8')
+
+    corpo = ""
     anexos = []
+
     for parte in mime_msg.walk():
-        if parte.get_content_maintype() == 'application' and parte.get_filename():
+        if parte.get_content_type() == 'text/plain':
+            corpo += parte.get_payload(decode=True).decode(errors="ignore")
+        elif parte.get_filename():
             filename = parte.get_filename()
             filepath = os.path.join('temp', filename)
             Path('temp').mkdir(exist_ok=True)
             with open(filepath, 'wb') as f:
                 f.write(parte.get_payload(decode=True))
             anexos.append(filepath)
-    return lista_verificacao, anexos
 
-def enviar_para_fastapi(lista_verificacao, anexos):
-    files = [('documentos', (Path(anexo).name, open(anexo, 'rb'), 'application/pdf')) for anexo in anexos]
-    data = {'lista_verificacao': lista_verificacao}
-    resposta = requests.post('http://127.0.0.1:8000/verificar', files=files, data=data)
-    print("🧾 Relatório gerado:")
-    print(resposta.json().get('relatorio'))
+    return corpo.strip(), anexos
 
 def ler_lista_verificacao_pdf(mensagem_id, gmail_service):
-    """
-    Interface compatível esperada por módulos que chamam 'ler_lista_verificacao_pdf'.
-    Retorna apenas a string da lista de verificação.
-    """
     lista_verificacao, _ = extrair_corpo_e_anexos(gmail_service, mensagem_id)
     return lista_verificacao
 
-if __name__ == '__main__':
-    service = autenticar_gmail()
-    mensagens = buscar_emails(service)
-    if not mensagens:
-        print("❌ Nenhum e-mail com anexo encontrado.")
+# Para testes com EmailMessage local
+def extrair_corpo_e_anexos_de_email(mensagem: EmailMessage, pasta_destino: str) -> Tuple[str, List[str]]:
+    corpo = ""
+    anexos_salvos = []
+
+    if mensagem.is_multipart():
+        for parte in mensagem.walk():
+            if parte.get_content_type() == "text/plain":
+                corpo += parte.get_payload(decode=True).decode(errors="ignore")
+            elif parte.get_filename():
+                nome_arquivo = parte.get_filename()
+                caminho = os.path.join(pasta_destino, nome_arquivo)
+                with open(caminho, "wb") as f:
+                    f.write(parte.get_payload(decode=True))
+                anexos_salvos.append(caminho)
     else:
-        mensagem_id = mensagens[0]['id']
-        lista_verificacao, anexos = extrair_corpo_e_anexos(service, mensagem_id)
-        enviar_para_fastapi(lista_verificacao, anexos)
+        corpo = mensagem.get_payload(decode=True).decode(errors="ignore")
+
+    return corpo.strip(), anexos_salvos
