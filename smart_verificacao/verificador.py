@@ -52,3 +52,17 @@ def verificar_documento(caminho_pdf, lista_verificacao):
         return {"status": "ok", "resposta": resposta.text}
     except Exception as e:
         return {"status": "erro", "mensagem": str(e)}
+
+def verificar_e_retornar(path_pdf: str, lista_verificacao: str) -> dict:
+    """
+    Função de integração com o smart-core.
+    Recebe o caminho do PDF e a lista de verificação (em string),
+    e retorna um dicionário com o resultado da verificação.
+    
+    Exemplo de retorno:
+    {
+        "status": "ok",
+        "resposta": "...texto em markdown..."
+    }
+    """
+    return verificar_documento(path_pdf, lista_verificacao)
