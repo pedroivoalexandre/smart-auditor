@@ -1,34 +1,31 @@
-import os
-import tempfile
-from unittest.mock import patch, MagicMock
-from smart_email.email_reader import enviar_para_fastapi
+import pytest
+import requests
+from unittest.mock import patch
+from smart_email.enviar_email_teste import enviar_para_fastapi
 
-@patch("smart_email.email_reader.requests.post")
-def test_enviar_para_fastapi(mock_post):
-    # Simular a resposta da API
-    mock_response = MagicMock()
-    mock_response.json.return_value = {'relatorio': '✔️ Documento verificado com sucesso.'}
-    mock_post.return_value = mock_response
 
-    # Criar um arquivo temporário simulando um PDF
-    with tempfile.NamedTemporaryFile(suffix=".pdf", delete=False) as tmp:
-        tmp.write(b"%PDF-1.4 Simulacao de PDF")
-        tmp_path = tmp.name
+@patch("requests.post")
+def test_enviar_para_fastapi_sucesso(mock_post):
+    """
+    Testa se a função enviar_para_fastapi retorna True quando a requisição é bem-sucedida.
+    """
+    mock_post.return_value.status_code = 200
+    sucesso = enviar_para_fastapi("grupo-teste", "Este é um corpo de teste.")
+    assert sucesso is True
 
-    try:
-        lista_verificacao = "Fornecedor: Exemplo\nCNPJ: 00.000.000/0001-00"
-        anexos = [tmp_path]
+@patch("requests.post")
+def test_enviar_para_fastapi_falha(mock_post):
+    """
+    Testa se a função enviar_para_fastapi retorna False quando a requisição falha.
+    """
+    mock_post.return_value.status_code = 500
+    sucesso = enviar_para_fastapi("grupo-teste", "Este é um corpo de teste.")
+    assert sucesso is False
 
-        # Executar a função com os mocks
-        enviar_para_fastapi(lista_verificacao, anexos)
-
-        # Verificações
-        assert mock_post.called, "❌ A função requests.post não foi chamada."
-        args, kwargs = mock_post.call_args
-        assert 'files' in kwargs, "❌ Parâmetro 'files' não encontrado no POST."
-        assert 'data' in kwargs, "❌ Parâmetro 'data' não encontrado no POST."
-        assert kwargs['data']['lista_verificacao'] == lista_verificacao, "❌ Lista de verificação não foi enviada corretamente."
-        print("✅ Teste de envio para FastAPI com mock executado com sucesso.")
-
-    finally:
-        os.remove(tmp_path)
+@patch("requests.post", side_effect=requests.exceptions.RequestException("Erro na conexão"))
+def test_enviar_para_fastapi_excecao(mock_post):
+    """
+    Testa se a função enviar_para_fastapi lida corretamente com exceções de rede.
+    """
+    sucesso = enviar_para_fastapi("grupo-teste", "Este é um corpo de teste.")
+    assert sucesso is False
