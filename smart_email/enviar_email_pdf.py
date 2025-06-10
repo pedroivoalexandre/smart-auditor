@@ -26,7 +26,7 @@ def gerar_pdf(corpo: str, nome_pdf: str) -> None:
     pdf.multi_cell(0, 10, corpo)
     pdf.output(nome_pdf)
 
-def enviar_email(destinatario: str, assunto: str, corpo: str, nome_pdf: str) -> None:
+def enviar_email_pdf(destinatario: str, assunto: str, corpo: str, nome_pdf: str) -> None:
     """Envia um e-mail com o corpo e anexo PDF gerado."""
     gerar_pdf(corpo, nome_pdf)
 
