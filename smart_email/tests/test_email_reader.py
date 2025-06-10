@@ -1,6 +1,7 @@
 import os
 from unittest.mock import patch, mock_open
-from enviar_email_pdf import enviar_email
+from smart_email.enviar_email_pdf import enviar_email
+
 
 @patch("builtins.open", new_callable=mock_open, read_data=b"PDF")
 @patch("smtplib.SMTP_SSL")

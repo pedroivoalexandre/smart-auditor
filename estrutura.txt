@@ -1,0 +1,184 @@
+Listagem de caminhos de pasta
+O número de série do volume é 6C78-2AFB
+C:.
+¦   .env
+¦   .gitignore
+¦   estrutura.txt
+¦   pytest.ini
+¦   README.md
+¦   requirements-doc.txt
+¦   requirements.txt
+¦   smart_auditor_org.code-workspace
+¦   teste_verificar_memoria.py
+¦   
++---.pytest_cache
+¦   ¦   .gitignore
+¦   ¦   CACHEDIR.TAG
+¦   ¦   README.md
+¦   ¦   
+¦   +---v
+¦       +---cache
+¦               lastfailed
+¦               nodeids
+¦               
++---Dados Analise
+¦   +---Original
+¦   ¦       1 - Acordo Comercial Margem CR Bluecast_01 ass.pdf
+¦   ¦       2 - Licença de Operação n° RLO 24000161, venc. 06.08.2026.pdf
+¦   ¦       3 - Laudo Rio Bonito 080-2025.pdf
+¦   ¦       4 - CCL RIOBONITO CNPJ17604136000103.pdf
+¦   ¦       P02520.1 - CASO CRBLUECAST.pptx
+¦   ¦       
+¦   +---V01
+¦   ¦       acordo.pdf
+¦   ¦       certificado.pdf
+¦   ¦       laudo.pdf
+¦   ¦       licenca.pdf
+¦   ¦       lista_verificacao_1.pdf
+¦   ¦       relatorio.pdf
+¦   ¦       
+¦   +---V02
+¦   ¦       acordo.pdf
+¦   ¦       certificado.pdf
+¦   ¦       laudo.pdf
+¦   ¦       licenca.pdf
+¦   ¦       lista_verificacao_2.pdf
+¦   ¦       relatorio.pdf
+¦   ¦       
+¦   +---V03
+¦   ¦       acordo.pdf
+¦   ¦       certificado.pdf
+¦   ¦       laudo.pdf
+¦   ¦       licenca.pdf
+¦   ¦       lista_verificacao_3.pdf
+¦   ¦       relatorio.pdf
+¦   ¦       
+¦   +---V04
+¦   ¦       acordo.pdf
+¦   ¦       certificado.pdf
+¦   ¦       laudo.pdf
+¦   ¦       licenca.pdf
+¦   ¦       lista_verificacao_4.pdf
+¦   ¦       relatorio.pdf
+¦   ¦       
+¦   +---V05
+¦   ¦       acordo.pdf
+¦   ¦       certificado.pdf
+¦   ¦       laudo.pdf
+¦   ¦       licenca.pdf
+¦   ¦       lista_verificacao_5.pdf
+¦   ¦       relatorio.pdf
+¦   ¦       
+¦   +---V06e
+¦   ¦       acordo.pdf
+¦   ¦       certificado.pdf
+¦   ¦       laudo.pdf
+¦   ¦       licenca.pdf
+¦   ¦       lista_verificacao_6.pdf
+¦   ¦       relatorio.pdf
+¦   ¦       
+¦   +---V07e
+¦   ¦       acordo.pdf
+¦   ¦       certificado.pdf
+¦   ¦       laudo.pdf
+¦   ¦       licenca.pdf
+¦   ¦       lista_verificacao_7.pdf
+¦   ¦       relatorio.pdf
+¦   ¦       
+¦   +---V08e
+¦   ¦       acordo.pdf
+¦   ¦       certificado.pdf
+¦   ¦       laudo.pdf
+¦   ¦       licenca.pdf
+¦   ¦       lista_verificacao_8.pdf
+¦   ¦       relatorio.pdf
+¦   ¦       
+¦   +---V09e
+¦   ¦       acordo.pdf
+¦   ¦       certificado.pdf
+¦   ¦       laudo.pdf
+¦   ¦       licenca.pdf
+¦   ¦       lista_verificacao_9.pdf
+¦   ¦       relatorio.pdf
+¦   ¦       
+¦   +---V10e
+¦           acordo.pdf
+¦           certificado.pdf
+¦           laudo.pdf
+¦           licenca.pdf
+¦           lista_verificacao_10.pdf
+¦           relatorio.pdf
+¦           
++---retorno_chat
+¦       README.md
+¦       smart_email.md
+¦       smart_verificacao.md
+¦       
++---smart-config
+¦       .env.example
+¦       credentials.json
+¦       setup_base.py
+¦       token.json
+¦       
++---smart_core
+¦   ¦   main.py
+¦   ¦   processador_fim_a_fim.py
+¦   ¦   
+¦   +---__pycache__
+¦           processador_fim_a_fim.cpython-312.pyc
+¦           
++---smart_documentos
+¦   ¦   Dados Analise.zip
+¦   ¦   documento_conjunto_1__correto_20250526_234124.pdf
+¦   ¦   documento_conjunto_2__erro_no_cnpj_20250526_234127.pdf
+¦   ¦   documento_conjunto_3__faltando_laudo_20250526_234131.pdf
+¦   ¦   documento_teste_20250522_235127.pdf
+¦   ¦   documento_teste_20250526_232555.pdf
+¦   ¦   
+¦   +---temp
+¦           acordo.pdf
+¦           certificado.pdf
+¦           documento_teste_20250522_235127.pdf
+¦           laudo.pdf
+¦           licenca.pdf
+¦           relatorio.pdf
+¦           
++---smart_email
+¦   ¦   email_reader.py
+¦   ¦   enviar_email_pdf.py
+¦   ¦   enviar_email_teste.py
+¦   ¦   README.md
+¦   ¦   __init__.py
+¦   ¦   
+¦   +---tests
+¦   ¦   ¦   test_email_reader.py
+¦   ¦   ¦   test_enviar_email_pdf.py
+¦   ¦   ¦   test_enviar_para_fastapi.py
+¦   ¦   ¦   __init__.py
+¦   ¦   ¦   
+¦   ¦   +---__pycache__
+¦   ¦           test_email_reader.cpython-312-pytest-8.4.0.pyc
+¦   ¦           test_enviar_email_pdf.cpython-312-pytest-8.4.0.pyc
+¦   ¦           test_enviar_para_fastapi.cpython-312-pytest-8.4.0.pyc
+¦   ¦           __init__.cpython-312.pyc
+¦   ¦           
+¦   +---__pycache__
+¦           email_reader.cpython-312.pyc
+¦           enviar_email_pdf.cpython-312.pyc
+¦           enviar_email_teste.cpython-312.pyc
+¦           __init__.cpython-312.pyc
+¦           
++---smart_utils
+¦       PadrãoRetornoChatgpt.md
+¦       
++---smart_verificacao
+    ¦   modelo_debug.py
+    ¦   prompt_verificacao.txt
+    ¦   test_funcao_core.py
+    ¦   test_model.py
+    ¦   verificacao_em_lote.py
+    ¦   verificador.py
+    ¦   
+    +---__pycache__
+            verificador.cpython-312.pyc
+            
