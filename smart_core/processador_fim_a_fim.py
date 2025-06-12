@@ -22,6 +22,7 @@ def gerar_pdf_resposta(texto: str, caminho_saida: str):
     c = canvas.Canvas(caminho_saida, pagesize=A4)
     largura, altura = A4
     y = altura - 50
+    # Remove marcações de markdown que não são bem renderizadas no PDF simples
     texto_formatado = texto.replace('```markdown', '').replace('```', '').strip()
     for linha in texto_formatado.split("\n"):
         c.drawString(50, y, linha[:100])
@@ -78,9 +79,8 @@ def processar_fluxo(lista_verificacao: str):
             try:
                 print(f"📤 Enviando resposta para {remetente}...")
                 assunto_resp = f"[Verificação] Resultado para: {assunto}"
-                corpo_email = "Olá! Segue em anexo o resultado da verificação dos documentos enviados."
+                corpo_email = "Olá!\n\nSegue em anexo o resultado da verificação dos documentos enviados."
                 
-                # Chamada CORRIGIDA para enviar e-mail com os argumentos na ordem certa
                 enviar_email_pdf(
                     destinatarios=[remetente],
                     caminhos_pdfs=respostas,
@@ -91,24 +91,27 @@ def processar_fluxo(lista_verificacao: str):
                 print(f"❌ Falha ao enviar e-mail: {e}")
                 traceback.print_exc()
 
-        relatorio_md.append(f"### {remetente} - {assunto}")
+        relatorio_md.append(f"### E-mail de '{remetente}' - Assunto: '{assunto}'")
         if respostas:
-            relatorio_md.extend([f"- {Path(r).name}" for r in respostas])
-            relatorio_txt.append(f"{remetente} ({assunto}):")
-            relatorio_txt.extend([f" - {Path(r).name}" for r in respostas])
+            relatorio_md.extend([f"- [x] Verificado: {Path(r).name}" for r in respostas])
+            relatorio_txt.append(f"E-mail de '{remetente}' ({assunto}):")
+            relatorio_txt.extend([f"  - {Path(r).name}" for r in respostas])
             total_respostas += len(respostas)
         else:
-            relatorio_md.append("- ⚠️ Nenhum documento verificado com sucesso.")
-            relatorio_txt.append(f"{remetente} ({assunto}): nenhum documento verificado")
+            relatorio_md.append("- [ ] Nenhum documento verificado com sucesso.")
+            relatorio_txt.append(f"E-mail de '{remetente}' ({assunto}): Nenhum documento verificado.")
 
     print(f"\n✅ Fluxo finalizado. Total de PDFs gerados: {total_respostas}")
 
     try:
-        # Chamada corrigida, sem os parâmetros que causavam erro
+        # --- CHAMADA CORRIGIDA ---
+        # Adicionando o argumento 'titulo' que estava faltando.
         registrar_log_execucao(
+            titulo="Relatório de Execução - Smart Auditor",
             conteudo_markdown="\n".join(relatorio_md),
             conteudo_texto="\n".join(relatorio_txt)
         )
     except Exception as e:
         print(f"⚠️ Falha ao salvar log de execução: {e}")
         traceback.print_exc()
+

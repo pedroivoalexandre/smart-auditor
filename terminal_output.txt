@@ -5,272 +5,65 @@ PS C:\Users\Code\smart_auditor_org> python executar.py
 INFO: Credenciais expiradas, atualizando o token...
 INFO: Token salvo em 'C:\Users\Code\smart_auditor_org\smart_config\token.json'
 ✅ Serviço Gmail autenticado com sucesso.
-📬 Total de e-mails encontrados: 16
-📎 Anexo salvo com sucesso em: smart_documentos/temp/20250611_210326_acordo.pdf
-📎 Anexo salvo com sucesso em: smart_documentos/temp/20250611_210327_licenca.pdf
-📎 Anexo salvo com sucesso em: smart_documentos/temp/20250611_210327_laudo.pdf
-📎 Anexo salvo com sucesso em: smart_documentos/temp/20250611_210327_certificado.pdf
-📎 Anexo salvo com sucesso em: smart_documentos/temp/20250611_210328_relatorio.pdf
-📎 Anexo salvo com sucesso em: smart_documentos/temp/20250611_210328_acordo.pdf
-📎 Anexo salvo com sucesso em: smart_documentos/temp/20250611_210329_certificado.pdf
-📎 Anexo salvo com sucesso em: smart_documentos/temp/20250611_210329_laudo.pdf
-📎 Anexo salvo com sucesso em: smart_documentos/temp/20250611_210329_licenca.pdf
-📎 Anexo salvo com sucesso em: smart_documentos/temp/20250611_210330_relatorio.pdf
-📎 Anexo salvo com sucesso em: smart_documentos/temp/20250611_210330_acordo.pdf
-📎 Anexo salvo com sucesso em: smart_documentos/temp/20250611_210331_certificado.pdf
-📎 Anexo salvo com sucesso em: smart_documentos/temp/20250611_210331_laudo.pdf
-📎 Anexo salvo com sucesso em: smart_documentos/temp/20250611_210332_licenca.pdf
-📎 Anexo salvo com sucesso em: smart_documentos/temp/20250611_210332_relatorio.pdf
-📎 Anexo salvo com sucesso em: smart_documentos/temp/20250611_210333_acordo.pdf
-📎 Anexo salvo com sucesso em: smart_documentos/temp/20250611_210333_certificado.pdf
-📎 Anexo salvo com sucesso em: smart_documentos/temp/20250611_210333_laudo.pdf
-📎 Anexo salvo com sucesso em: smart_documentos/temp/20250611_210334_licenca.pdf
-📎 Anexo salvo com sucesso em: smart_documentos/temp/20250611_210334_relatorio.pdf
-📎 Anexo salvo com sucesso em: smart_documentos/temp/20250611_210335_acordo.pdf
-📎 Anexo salvo com sucesso em: smart_documentos/temp/20250611_210335_certificado.pdf
-📎 Anexo salvo com sucesso em: smart_documentos/temp/20250611_210335_laudo.pdf
-📎 Anexo salvo com sucesso em: smart_documentos/temp/20250611_210336_licenca.pdf
-📎 Anexo salvo com sucesso em: smart_documentos/temp/20250611_210336_relatorio.pdf
-📎 Anexo salvo com sucesso em: smart_documentos/temp/20250611_210337_acordo.pdf
-📎 Anexo salvo com sucesso em: smart_documentos/temp/20250611_210337_certificado.pdf
-📎 Anexo salvo com sucesso em: smart_documentos/temp/20250611_210337_laudo.pdf
-📎 Anexo salvo com sucesso em: smart_documentos/temp/20250611_210338_licenca.pdf
-📎 Anexo salvo com sucesso em: smart_documentos/temp/20250611_210338_relatorio.pdf
-📎 Anexo salvo com sucesso em: smart_documentos/temp/20250611_210339_acordo.pdf
-📎 Anexo salvo com sucesso em: smart_documentos/temp/20250611_210339_certificado.pdf
-📎 Anexo salvo com sucesso em: smart_documentos/temp/20250611_210340_laudo.pdf
-📎 Anexo salvo com sucesso em: smart_documentos/temp/20250611_210340_licenca.pdf
-📎 Anexo salvo com sucesso em: smart_documentos/temp/20250611_210340_relatorio.pdf
-📎 Anexo salvo com sucesso em: smart_documentos/temp/20250611_210341_acordo.pdf
-📎 Anexo salvo com sucesso em: smart_documentos/temp/20250611_210341_certificado.pdf
-📎 Anexo salvo com sucesso em: smart_documentos/temp/20250611_210342_laudo.pdf
-📎 Anexo salvo com sucesso em: smart_documentos/temp/20250611_210342_licenca.pdf
-📎 Anexo salvo com sucesso em: smart_documentos/temp/20250611_210342_relatorio.pdf
-📎 Anexo salvo com sucesso em: smart_documentos/temp/20250611_210344_acordo.pdf
-📎 Anexo salvo com sucesso em: smart_documentos/temp/20250611_210344_certificado.pdf
-📎 Anexo salvo com sucesso em: smart_documentos/temp/20250611_210344_laudo.pdf
-📎 Anexo salvo com sucesso em: smart_documentos/temp/20250611_210345_licenca.pdf
-📎 Anexo salvo com sucesso em: smart_documentos/temp/20250611_210345_relatorio.pdf
-📎 Anexo salvo com sucesso em: smart_documentos/temp/20250611_210346_acordo.pdf
-📎 Anexo salvo com sucesso em: smart_documentos/temp/20250611_210346_certificado.pdf
-📎 Anexo salvo com sucesso em: smart_documentos/temp/20250611_210346_laudo.pdf
-📎 Anexo salvo com sucesso em: smart_documentos/temp/20250611_210347_licenca.pdf
-📎 Anexo salvo com sucesso em: smart_documentos/temp/20250611_210347_relatorio.pdf
-📎 Anexo salvo com sucesso em: smart_documentos/temp/20250611_210348_acordo.pdf
-📎 Anexo salvo com sucesso em: smart_documentos/temp/20250611_210348_certificado.pdf
-📎 Anexo salvo com sucesso em: smart_documentos/temp/20250611_210348_laudo.pdf
-📎 Anexo salvo com sucesso em: smart_documentos/temp/20250611_210349_licenca.pdf
-📎 Anexo salvo com sucesso em: smart_documentos/temp/20250611_210349_relatorio.pdf
-📎 Anexo salvo com sucesso em: smart_documentos/temp/20250611_210350_documento_conjunto_3__faltando_laudo_20250526_234131.pdf
-📎 Anexo salvo com sucesso em: smart_documentos/temp/20250611_210350_documento_conjunto_2__erro_no_cnpj_20250526_234127.pdf
-📎 Anexo salvo com sucesso em: smart_documentos/temp/20250611_210351_documento_conjunto_1__correto_20250526_234124.pdf
-📎 Anexo salvo com sucesso em: smart_documentos/temp/20250611_210352_documento_teste_20250526_232555.pdf
-📎 Anexo salvo com sucesso em: smart_documentos/temp/20250611_210352_documento_teste_20250522_235127.pdf
-
-📧 Processando: Smart Auditor <smartauditor.teste@gmail.com> | 5 anexo(s)
-🔍 Verificando documento: smart_documentos/temp/20250611_210326_acordo.pdf
-
-📝 Texto extraído do PDF:
-
-ACORDO COMERCIAL - Documento 1
-Informações do fornecedor
-- Razão Social: EcoResíduos Ltda.
-- CNPJ/CPF: 12.345.678/0001-90
-- Endereço comercial: Rua das Indústrias, 100 - Bairro Industrial
-- Email de contato: ecoresíduos@email.com
-Informações adicionais (não obrigatórias)
-- Número de funcionários: 45
-- Ano de fundação: 2008
-- Certificações ISO: 9001, 14001
-- Observações: Nenhuma pendência judicial.
-Dados do processo
-- Tipo de resíduo envolvido: Cinza industrial classe II
-- Órgão licenciador: Prefeitura de Belo Horizonte
-- Número do processo: PROC-4000/2025
-- Número da licença: 001000/2025
-- Validade: 20/12/2026
-Laudo técnico
-- Laboratório utilizado: LabAmbiente Análises
-- Código do laudo: LAUDO-2000
-- Data de emissão: 10/03/2025
-- Técnico responsável: Dr. Fulano de Tal - CREA 123456/D
-- Parâmetros analisados: pH, metais, sólidos totais
-- Resultados conforme solicitado pela CR Bluecast
-Certificação do laboratório- Número de certificado: CERT-3000
-- Validade do certificado: 31/12/2025
-- Emitido por: Conselho Nacional de Acreditação Laboratorial
-Ruído proposital para teste
-- Este bloco contém informações irrelevantes para confundir a IA.
-- Lista de compras: papel A4, toner, grampeador.
-- Referência cruzada com cliente interno XYZ.
-- Nota: Nem todos os dados aqui são verificados.
-INFO: Aguardando 4 segundos para evitar limite de quota...
-🧠 Resultado bruto da IA:
-{'status': 'ok', 'resposta': '- [OK] Nome do fornecedor: Presente e correto.\n- [OK] CNPJ do fornecedor: Presente e correto.\n- [OK] Número da Licença de Operação: Presente e correto.\n- [OK] Validade da Licença de Operação: Presente e correto.\n- [OK] Nome do órgão emissor da licença: Presente e correto.\n- [OK] Tipo ou nome do resíduo analisado: Presente e correto.\n- [OK] Nome do laboratório responsável pelo laudo: Presente e correto.\n- [OK] Data do laudo: Presente e correto.\n- [OK] Assinatura ou identificação do responsável técnico: Presente e correto.\n- [OK] Número ou código do certificado do laboratório: Presente e correto.\n- [OK] Validade do certificado do laboratório: Presente e correto.\n\n'}
-
-✅ Resultado salvo em: smart_documentos/temp/20250611_210326_acordo_verificado.pdf
-🔍 Verificando documento: smart_documentos/temp/20250611_210327_licenca.pdf
-
-📝 Texto extraído do PDF:
-
-LICENÇA DE OPERAÇÃO - Documento 1
-Informações do fornecedor
-- Razão Social: EcoResíduos Ltda.
-- CNPJ/CPF: 12.345.678/0001-90
-- Endereço comercial: Rua das Indústrias, 100 - Bairro Industrial
-- Email de contato: ecoresíduos@email.com
-Informações adicionais (não obrigatórias)
-- Número de funcionários: 45
-- Ano de fundação: 2008
-- Certificações ISO: 9001, 14001
-- Observações: Nenhuma pendência judicial.
-Dados do processo
-- Tipo de resíduo envolvido: Cinza industrial classe II
-- Órgão licenciador: Prefeitura de Belo Horizonte
-- Número do processo: PROC-4000/2025
-- Número da licença: 001000/2025
-- Validade: 20/12/2026
-Laudo técnico
-- Laboratório utilizado: LabAmbiente Análises
-- Código do laudo: LAUDO-2000
-- Data de emissão: 10/03/2025
-- Técnico responsável: Dr. Fulano de Tal - CREA 123456/D
-- Parâmetros analisados: pH, metais, sólidos totais
-- Resultados conforme solicitado pela CR Bluecast
-Certificação do laboratório- Número de certificado: CERT-3000
-- Validade do certificado: 31/12/2025
-- Emitido por: Conselho Nacional de Acreditação Laboratorial
-Ruído proposital para teste
-- Este bloco contém informações irrelevantes para confundir a IA.
-- Lista de compras: papel A4, toner, grampeador.
-- Referência cruzada com cliente interno XYZ.
-- Nota: Nem todos os dados aqui são verificados.
-INFO: Aguardando 4 segundos para evitar limite de quota...
-🧠 Resultado bruto da IA:
-{'status': 'ok', 'resposta': '- [OK] Nome do fornecedor: Presente e correto.\n- [OK] CNPJ do fornecedor: Presente e correto.\n- [OK] Número da Licença de Operação: Presente e correto.\n- [OK] Validade da Licença de Operação: Presente e correto.\n- [OK] Nome do órgão emissor da licença: Presente e correto.\n- [OK] Tipo ou nome do resíduo analisado: Presente e correto.\n- [OK] Nome do laboratório responsável pelo laudo: Presente e correto.\n- [OK] Data do laudo: Presente e correto.\n- [OK] Assinatura ou identificação do responsável técnico: Presente e correto.\n- [OK] Número ou código do certificado do laboratório: Presente e correto.\n- [OK] Validade do certificado do laboratório: Presente e correto.\n\n'}
-
-✅ Resultado salvo em: smart_documentos/temp/20250611_210327_licenca_verificado.pdf
-🔍 Verificando documento: smart_documentos/temp/20250611_210327_laudo.pdf
-
-📝 Texto extraído do PDF:
-
-LAUDO DO LABORATÓRIO - Documento 1
-Informações do fornecedor
-- Razão Social: EcoResíduos Ltda.
-- CNPJ/CPF: 12.345.678/0001-90
-- Endereço comercial: Rua das Indústrias, 100 - Bairro Industrial
-- Email de contato: ecoresíduos@email.com
-Informações adicionais (não obrigatórias)
-- Número de funcionários: 45
-- Ano de fundação: 2008
-- Certificações ISO: 9001, 14001
-- Observações: Nenhuma pendência judicial.
-Dados do processo
-- Tipo de resíduo envolvido: Cinza industrial classe II
-- Órgão licenciador: Prefeitura de Belo Horizonte
-- Número do processo: PROC-4000/2025
-- Número da licença: 001000/2025
-- Validade: 20/12/2026
-Laudo técnico
-- Laboratório utilizado: LabAmbiente Análises
-- Código do laudo: LAUDO-2000
-- Data de emissão: 10/03/2025
-- Técnico responsável: Dr. Fulano de Tal - CREA 123456/D
-- Parâmetros analisados: pH, metais, sólidos totais
-- Resultados conforme solicitado pela CR Bluecast
-Certificação do laboratório- Número de certificado: CERT-3000
-- Validade do certificado: 31/12/2025
-- Emitido por: Conselho Nacional de Acreditação Laboratorial
-Ruído proposital para teste
-- Este bloco contém informações irrelevantes para confundir a IA.
-- Lista de compras: papel A4, toner, grampeador.
-- Referência cruzada com cliente interno XYZ.
-- Nota: Nem todos os dados aqui são verificados.
-INFO: Aguardando 4 segundos para evitar limite de quota...
-🧠 Resultado bruto da IA:
-{'status': 'ok', 'resposta': '- [OK] Nome do fornecedor: Presente como "EcoResíduos Ltda."\n- [OK] CNPJ do fornecedor: Presente como "12.345.678/0001-90"\n- [OK] Número da Licença de Operação: Presente como "001000/2025"\n- [OK] Validade da Licença de Operação: Presente como "20/12/2026"\n- [OK] Nome do órgão emissor da licença: Presente como "Prefeitura de Belo Horizonte"\n- [OK] Tipo ou nome do resíduo analisado: Presente como "Cinza industrial classe II"\n- [OK] Nome do laboratório responsável pelo laudo: Presente como "LabAmbiente Análises"\n- [OK] Data do laudo: Presente como "10/03/2025"\n- [OK] Assinatura ou identificação do responsável técnico: Presente como "Dr. Fulano de Tal - CREA 123456/D"\n- [OK] Número ou código do certificado do laboratório: Presente como "CERT-3000"\n- [OK] Validade do certificado do laboratório: Presente como "31/12/2025"\n\n'}
-
-✅ Resultado salvo em: smart_documentos/temp/20250611_210327_laudo_verificado.pdf
-🔍 Verificando documento: smart_documentos/temp/20250611_210327_certificado.pdf
-
-📝 Texto extraído do PDF:
-
-CERTIFICADO DO LABORATÓRIO - Documento 1
-Informações do fornecedor
-- Razão Social: EcoResíduos Ltda.
-- CNPJ/CPF: 12.345.678/0001-90
-- Endereço comercial: Rua das Indústrias, 100 - Bairro Industrial
-- Email de contato: ecoresíduos@email.com
-Informações adicionais (não obrigatórias)
-- Número de funcionários: 45
-- Ano de fundação: 2008
-- Certificações ISO: 9001, 14001
-- Observações: Nenhuma pendência judicial.
-Dados do processo
-- Tipo de resíduo envolvido: Cinza industrial classe II
-- Órgão licenciador: Prefeitura de Belo Horizonte
-- Número do processo: PROC-4000/2025
-- Número da licença: 001000/2025
-- Validade: 20/12/2026
-Laudo técnico
-- Laboratório utilizado: LabAmbiente Análises
-- Código do laudo: LAUDO-2000
-- Data de emissão: 10/03/2025
-- Técnico responsável: Dr. Fulano de Tal - CREA 123456/D
-- Parâmetros analisados: pH, metais, sólidos totais
-- Resultados conforme solicitado pela CR Bluecast
-Certificação do laboratório- Número de certificado: CERT-3000
-- Validade do certificado: 31/12/2025
-- Emitido por: Conselho Nacional de Acreditação Laboratorial
-Ruído proposital para teste
-- Este bloco contém informações irrelevantes para confundir a IA.
-- Lista de compras: papel A4, toner, grampeador.
-- Referência cruzada com cliente interno XYZ.
-- Nota: Nem todos os dados aqui são verificados.
-INFO: Aguardando 4 segundos para evitar limite de quota...
-🧠 Resultado bruto da IA:
-{'status': 'ok', 'resposta': '- [OK] Nome do fornecedor: Presente: EcoResíduos Ltda.\n- [OK] CNPJ do fornecedor: Presente: 12.345.678/0001-90\n- [OK] Número da Licença de Operação: Presente: 001000/2025\n- [OK] Validade da Licença de Operação: Presente: 20/12/2026\n- [OK] Nome do órgão emissor da licença: Presente: Prefeitura de Belo Horizonte\n- [OK] Tipo ou nome do resíduo analisado: Presente: Cinza industrial classe II\n- [OK] Nome do laboratório responsável pelo laudo: Presente: LabAmbiente Análises\n- [OK] Data do laudo: Presente: 10/03/2025\n- [OK] Assinatura ou identificação do responsável técnico: Presente: Dr. Fulano de Tal - CREA 123456/D\n- [OK] Número ou código do certificado do laboratório: Presente: CERT-3000\n- [OK] Validade do certificado do laboratório: Presente: 31/12/2025\n\n'}
-
-✅ Resultado salvo em: smart_documentos/temp/20250611_210327_certificado_verificado.pdf
-🔍 Verificando documento: smart_documentos/temp/20250611_210328_relatorio.pdf
-
-📝 Texto extraído do PDF:
-
-# Relatório de Verificação - Caso 1
-## Campos Obrigatórios
-- Nome do fornecedor: "EcoResíduos Ltda." -> OK
-- CNPJ do fornecedor: "12.345.678/0001-90" -> OK
-- Número da Licença de Operação: "001000/2025" -> OK
-- Validade da Licença de Operação: "20/12/2026" -> OK
-- Nome do órgão emissor da licença: "Prefeitura de Belo Horizonte" -> OK
-- Tipo ou nome do resíduo analisado: "Cinza industrial classe II" -> OK
-- Nome do laboratório responsável pelo laudo: "LabAmbiente Análises" -> OK
-- Data do laudo: "10/03/2025" -> OK
-- Assinatura ou identificação do responsável técnico: "Dr. Fulano de Tal - CREA 123456/D" -> OK
-- Número ou código do certificado do laboratório: "CERT-3000" -> OK
-- Validade do certificado do laboratório: "31/12/2025" -> OK
-## Campos Complementares
-- Endereço do fornecedor: "Rua das Indústrias, 100 - Bairro Industrial" (documento: Licença) -> OK
-- Razão social completa ou nome fantasia: "EcoResíduos Ltda." (documento: Acordo) -> OK
-- Tipo de atividade licenciada: "Tratamento de resíduos não perigosos" (documento: Licença) -> OK
-- Número ou código do laudo: "LAUDO-2000" (documento: Laudo) -> OK
-- Nome e registro do responsável técnico: "Dr. Fulano de Tal - CREA 123456/D" (documento: Laudo) -> OK
-- Código do resíduo: "ABNT NBR 10004" (documento: Laudo) -> OK
-- Número do processo administrativo da licença: "PROC-4000/2025" (documento: Licença) -> OK
-- Informações de contato: "ecoresíduos@email.com | (31) 3000-3000" (documento: Acordo) -> OK  ## Observações Finais
-Todos os campos obrigatórios e complementares foram encontrados, mesmo em meio a dados irrelevantes,
-e estão coerentes entre os documentos e correspondem aos dados da Lista de Verificação.
-_Data da Verificação: 21/05/2025_
-INFO: Aguardando 4 segundos para evitar limite de quota...
-🧠 Resultado bruto da IA:
-{'status': 'ok', 'resposta': '- [OK] Nome do fornecedor: Presente e correto.\n- [OK] CNPJ do fornecedor: Presente e correto.\n- [OK] Número da Licença de Operação: Presente e correto.\n- [OK] Validade da Licença de Operação: Presente e correto.\n- [OK] Nome do órgão emissor da licença: Presente e correto.\n- [OK] Tipo ou nome do resíduo analisado: Presente e correto.\n- [OK] Nome do laboratório responsável pelo laudo: Presente e correto.\n- [OK] Data do laudo: Presente e correto.\n- [OK] Assinatura ou identificação do responsável técnico: Presente e correto.\n- [OK] Número ou código do certificado do laboratório: Presente e correto.\n- [OK] Validade do certificado do laboratório: Presente e correto.\n\n'}
-
-✅ Resultado salvo em: smart_documentos/temp/20250611_210328_relatorio_verificado.pdf
-📤 Enviando resposta para Smart Auditor <smartauditor.teste@gmail.com>...
-📧 E-mail enviado com sucesso!
+📬 Total de e-mails encontrados: 15
+📎 Anexo salvo com sucesso em: smart_documentos/temp/20250611_221753_acordo.pdf
+📎 Anexo salvo com sucesso em: smart_documentos/temp/20250611_221753_certificado.pdf
+📎 Anexo salvo com sucesso em: smart_documentos/temp/20250611_221753_laudo.pdf
+📎 Anexo salvo com sucesso em: smart_documentos/temp/20250611_221754_licenca.pdf
+📎 Anexo salvo com sucesso em: smart_documentos/temp/20250611_221754_relatorio.pdf
+📎 Anexo salvo com sucesso em: smart_documentos/temp/20250611_221755_acordo.pdf
+📎 Anexo salvo com sucesso em: smart_documentos/temp/20250611_221755_certificado.pdf
+📎 Anexo salvo com sucesso em: smart_documentos/temp/20250611_221755_laudo.pdf
+📎 Anexo salvo com sucesso em: smart_documentos/temp/20250611_221756_licenca.pdf
+📎 Anexo salvo com sucesso em: smart_documentos/temp/20250611_221756_relatorio.pdf
+📎 Anexo salvo com sucesso em: smart_documentos/temp/20250611_221757_acordo.pdf
+📎 Anexo salvo com sucesso em: smart_documentos/temp/20250611_221757_certificado.pdf
+📎 Anexo salvo com sucesso em: smart_documentos/temp/20250611_221757_laudo.pdf
+📎 Anexo salvo com sucesso em: smart_documentos/temp/20250611_221758_licenca.pdf
+📎 Anexo salvo com sucesso em: smart_documentos/temp/20250611_221758_relatorio.pdf
+📎 Anexo salvo com sucesso em: smart_documentos/temp/20250611_221758_acordo.pdf
+📎 Anexo salvo com sucesso em: smart_documentos/temp/20250611_221759_certificado.pdf
+📎 Anexo salvo com sucesso em: smart_documentos/temp/20250611_221759_laudo.pdf
+📎 Anexo salvo com sucesso em: smart_documentos/temp/20250611_221759_licenca.pdf
+📎 Anexo salvo com sucesso em: smart_documentos/temp/20250611_221800_relatorio.pdf
+📎 Anexo salvo com sucesso em: smart_documentos/temp/20250611_221800_acordo.pdf
+📎 Anexo salvo com sucesso em: smart_documentos/temp/20250611_221801_certificado.pdf
+📎 Anexo salvo com sucesso em: smart_documentos/temp/20250611_221801_laudo.pdf
+📎 Anexo salvo com sucesso em: smart_documentos/temp/20250611_221801_licenca.pdf
+📎 Anexo salvo com sucesso em: smart_documentos/temp/20250611_221802_relatorio.pdf
+📎 Anexo salvo com sucesso em: smart_documentos/temp/20250611_221802_acordo.pdf
+📎 Anexo salvo com sucesso em: smart_documentos/temp/20250611_221803_certificado.pdf
+📎 Anexo salvo com sucesso em: smart_documentos/temp/20250611_221803_laudo.pdf
+📎 Anexo salvo com sucesso em: smart_documentos/temp/20250611_221803_licenca.pdf
+📎 Anexo salvo com sucesso em: smart_documentos/temp/20250611_221804_relatorio.pdf
+📎 Anexo salvo com sucesso em: smart_documentos/temp/20250611_221804_acordo.pdf
+📎 Anexo salvo com sucesso em: smart_documentos/temp/20250611_221805_certificado.pdf
+📎 Anexo salvo com sucesso em: smart_documentos/temp/20250611_221805_laudo.pdf
+📎 Anexo salvo com sucesso em: smart_documentos/temp/20250611_221805_licenca.pdf
+📎 Anexo salvo com sucesso em: smart_documentos/temp/20250611_221806_relatorio.pdf
+📎 Anexo salvo com sucesso em: smart_documentos/temp/20250611_221806_acordo.pdf
+📎 Anexo salvo com sucesso em: smart_documentos/temp/20250611_221807_certificado.pdf
+📎 Anexo salvo com sucesso em: smart_documentos/temp/20250611_221807_laudo.pdf
+📎 Anexo salvo com sucesso em: smart_documentos/temp/20250611_221807_licenca.pdf
+📎 Anexo salvo com sucesso em: smart_documentos/temp/20250611_221808_relatorio.pdf
+📎 Anexo salvo com sucesso em: smart_documentos/temp/20250611_221808_acordo.pdf
+📎 Anexo salvo com sucesso em: smart_documentos/temp/20250611_221809_certificado.pdf
+📎 Anexo salvo com sucesso em: smart_documentos/temp/20250611_221809_laudo.pdf
+📎 Anexo salvo com sucesso em: smart_documentos/temp/20250611_221809_licenca.pdf
+📎 Anexo salvo com sucesso em: smart_documentos/temp/20250611_221810_relatorio.pdf
+📎 Anexo salvo com sucesso em: smart_documentos/temp/20250611_221810_acordo.pdf
+📎 Anexo salvo com sucesso em: smart_documentos/temp/20250611_221811_certificado.pdf
+📎 Anexo salvo com sucesso em: smart_documentos/temp/20250611_221811_laudo.pdf
+📎 Anexo salvo com sucesso em: smart_documentos/temp/20250611_221811_licenca.pdf
+📎 Anexo salvo com sucesso em: smart_documentos/temp/20250611_221812_relatorio.pdf
+📎 Anexo salvo com sucesso em: smart_documentos/temp/20250611_221812_documento_conjunto_3__faltando_laudo_20250526_234131.pdf
+📎 Anexo salvo com sucesso em: smart_documentos/temp/20250611_221813_documento_conjunto_2__erro_no_cnpj_20250526_234127.pdf
+📎 Anexo salvo com sucesso em: smart_documentos/temp/20250611_221814_documento_conjunto_1__correto_20250526_234124.pdf
+📎 Anexo salvo com sucesso em: smart_documentos/temp/20250611_221814_documento_teste_20250526_232555.pdf
+📎 Anexo salvo com sucesso em: smart_documentos/temp/20250611_221815_documento_teste_20250522_235127.pdf
 
 📧 Processando: smartauditor.teste@gmail.com | 5 anexo(s)
-🔍 Verificando documento: smart_documentos/temp/20250611_210328_acordo.pdf
+🔍 Verificando documento: smart_documentos/temp/20250611_221753_acordo.pdf
 
 📝 Texto extraído do PDF:
 
@@ -302,8 +95,8 @@ INFO: Aguardando 4 segundos para evitar limite de quota...
 🧠 Resultado bruto da IA:
 {'status': 'ok', 'resposta': '- [OK] Nome do fornecedor: Presente como "BioReciclagem Minas"\n- [OK] CNPJ do fornecedor: Presente como "00.111.222/0001-33"\n- [OK] Número da Licença de Operação: Presente como "991004/2025"\n- [OK] Validade da Licença de Operação: Presente como "20/12/2026"\n- [OK] Nome do órgão emissor da licença: Presente como "Prefeitura de Sabará"\n- [OK] Tipo ou nome do resíduo analisado: Presente como "Rejeito de britagem de concreto"\n- [OK] Nome do laboratório responsável pelo laudo: Presente como "TecnoAmb Análises Químicas"\n- [OK] Data do laudo: Presente como "14/03/2025"\n- [OK] Assinatura ou identificação do responsável técnico: Presente como "Dr. Fulano de Tal - CREA 123456/D"\n- [OK] Número ou código do certificado do laboratório: Presente como "CERT-3004"\n- [OK] Validade do certificado do laboratório: Presente como "31/12/2025"\n\n'}
 
-✅ Resultado salvo em: smart_documentos/temp/20250611_210328_acordo_verificado.pdf
-🔍 Verificando documento: smart_documentos/temp/20250611_210329_certificado.pdf
+✅ Resultado salvo em: smart_documentos/temp/20250611_221753_acordo_verificado.pdf
+🔍 Verificando documento: smart_documentos/temp/20250611_221753_certificado.pdf
 
 📝 Texto extraído do PDF:
 
@@ -333,10 +126,10 @@ Ruído adicional
 - Este documento contém dados inconsistentes propositalmente.
 INFO: Aguardando 4 segundos para evitar limite de quota...
 🧠 Resultado bruto da IA:
-{'status': 'ok', 'resposta': '- [OK] Nome do fornecedor: Presente como "BioReciclagem Minas"\n- [OK] CNPJ do fornecedor: Presente como "00.111.222/0001-33"\n- [OK] Número da Licença de Operação: Presente como "991004/2025"\n- [OK] Validade da Licença de Operação: Presente como "20/12/2026"\n- [OK] Nome do órgão emissor da licença: Presente como "Prefeitura de Sabará"\n- [OK] Tipo ou nome do resíduo analisado: Presente como "Rejeito de britagem de concreto"\n- [OK] Nome do laboratório responsável pelo laudo: Presente como "TecnoAmb Análises Químicas"\n- [OK] Data do laudo: Presente como "14/03/2025"\n- [OK] Assinatura ou identificação do responsável técnico: Presente como "Dr. Fulano de Tal - CREA 123456/D"\n- [OK] Número ou código do certificado do laboratório: Presente como "CERT-3004"\n- [OK] Validade do certificado do laboratório: Presente como "31/12/2025"\n\n'}
+{'status': 'ok', 'resposta': '- [OK] Nome do fornecedor: Presente e correto.\n- [OK] CNPJ do fornecedor: Presente e correto.\n- [OK] Número da Licença de Operação: Presente e correto.\n- [OK] Validade da Licença de Operação: Presente e correto.\n- [OK] Nome do órgão emissor da licença: Presente e correto.\n- [OK] Tipo ou nome do resíduo analisado: Presente e correto.\n- [OK] Nome do laboratório responsável pelo laudo: Presente e correto.\n- [OK] Data do laudo: Presente e correto.\n- [OK] Assinatura ou identificação do responsável técnico: Presente e correto.\n- [OK] Número ou código do certificado do laboratório: Presente e correto.\n- [OK] Validade do certificado do laboratório: Presente e correto.\n\n'}
 
-✅ Resultado salvo em: smart_documentos/temp/20250611_210329_certificado_verificado.pdf
-🔍 Verificando documento: smart_documentos/temp/20250611_210329_laudo.pdf
+✅ Resultado salvo em: smart_documentos/temp/20250611_221753_certificado_verificado.pdf
+🔍 Verificando documento: smart_documentos/temp/20250611_221753_laudo.pdf
 
 📝 Texto extraído do PDF:
 
@@ -368,8 +161,8 @@ INFO: Aguardando 4 segundos para evitar limite de quota...
 🧠 Resultado bruto da IA:
 {'status': 'ok', 'resposta': '- [OK] Nome do fornecedor: Presente e correto.\n- [OK] CNPJ do fornecedor: Presente e correto.\n- [OK] Número da Licença de Operação: Presente e correto.\n- [OK] Validade da Licença de Operação: Presente e correto.\n- [OK] Nome do órgão emissor da licença: Presente e correto.\n- [OK] Tipo ou nome do resíduo analisado: Presente e correto.\n- [OK] Nome do laboratório responsável pelo laudo: Presente e correto.\n- [OK] Data do laudo: Presente e correto.\n- [OK] Assinatura ou identificação do responsável técnico: Presente e correto.\n- [OK] Número ou código do certificado do laboratório: Presente e correto.\n- [OK] Validade do certificado do laboratório: Presente e correto.\n\n'}
 
-✅ Resultado salvo em: smart_documentos/temp/20250611_210329_laudo_verificado.pdf
-🔍 Verificando documento: smart_documentos/temp/20250611_210329_licenca.pdf
+✅ Resultado salvo em: smart_documentos/temp/20250611_221753_laudo_verificado.pdf
+🔍 Verificando documento: smart_documentos/temp/20250611_221754_licenca.pdf
 
 📝 Texto extraído do PDF:
 
@@ -399,10 +192,10 @@ Ruído adicional
 - Este documento contém dados inconsistentes propositalmente.
 INFO: Aguardando 4 segundos para evitar limite de quota...
 🧠 Resultado bruto da IA:
-{'status': 'ok', 'resposta': '- [OK] Nome do fornecedor: Presente no documento como "BioReciclagem Minas".\n- [OK] CNPJ do fornecedor: Presente no documento como "00.111.222/0001-33".\n- [OK] Número da Licença de Operação: Presente no documento como "991004/2025".\n- [OK] Validade da Licença de Operação: Presente no documento como "20/12/2026".\n- [OK] Nome do órgão emissor da licença: Presente no documento como "Prefeitura de Sabará".\n- [OK] Tipo ou nome do resíduo analisado: Presente no documento como "Rejeito de britagem de concreto".\n- [OK] Nome do laboratório responsável pelo laudo: Presente no documento como "TecnoAmb Análises Químicas".\n- [OK] Data do laudo: Presente no documento como "14/03/2025".\n- [OK] Assinatura ou identificação do responsável técnico: Presente no documento como "Dr. Fulano de Tal - CREA 123456/D".\n- [OK] Número ou código do certificado do laboratório: Presente no documento como "CERT-3004".\n- [OK] Validade do certificado do laboratório: Presente no documento como "31/12/2025".\n\n'}
+{'status': 'ok', 'resposta': '- [OK] Nome do fornecedor: Presente e correto.\n- [OK] CNPJ do fornecedor: Presente e correto.\n- [OK] Número da Licença de Operação: Presente e correto.\n- [OK] Validade da Licença de Operação: Presente e correto.\n- [OK] Nome do órgão emissor da licença: Presente e correto.\n- [OK] Tipo ou nome do resíduo analisado: Presente e correto.\n- [OK] Nome do laboratório responsável pelo laudo: Presente e correto.\n- [OK] Data do laudo: Presente e correto.\n- [OK] Assinatura ou identificação do responsável técnico: Presente e correto.\n- [OK] Número ou código do certificado do laboratório: Presente e correto.\n- [OK] Validade do certificado do laboratório: Presente e correto.\n\n'}
 
-✅ Resultado salvo em: smart_documentos/temp/20250611_210329_licenca_verificado.pdf
-🔍 Verificando documento: smart_documentos/temp/20250611_210330_relatorio.pdf
+✅ Resultado salvo em: smart_documentos/temp/20250611_221754_licenca_verificado.pdf
+🔍 Verificando documento: smart_documentos/temp/20250611_221754_relatorio.pdf
 
 📝 Texto extraído do PDF:
 
@@ -425,14 +218,14 @@ Essas divergências devem ser analisadas antes de validar a homologação do for
 _Data da Verificação: 21/05/2025_
 INFO: Aguardando 4 segundos para evitar limite de quota...
 🧠 Resultado bruto da IA:
-{'status': 'ok', 'resposta': '- [OK] Nome do fornecedor: Presente e correto.\n- [OK] CNPJ do fornecedor: Presente e correto.\n- [DIVERGENTE] Número da Licença de Operação: Valor encontrado ("991004/2025") apresenta divergência.\n- [OK] Validade da Licença de Operação: Presente e correto.\n- [OK] Nome do órgão emissor da licença: Presente e correto.\n- [OK] Tipo ou nome do resíduo analisado: Presente e correto.\n- [OK] Nome do laboratório responsável pelo laudo: Presente e correto.\n- [OK] Data do laudo: Presente e correto.\n- [OK] Assinatura ou identificação do responsável técnico: Presente e correto.\n- [OK] Número ou código do certificado do laboratório: Presente e correto.\n- [OK] Validade do certificado do laboratório: Presente e correto.\n\n'}
+{'status': 'ok', 'resposta': '- [OK] Nome do fornecedor: Presente e correto\n- [OK] CNPJ do fornecedor: Presente e correto\n- [DIVERGENTE] Número da Licença de Operação: Valor encontrado ("991004/2025") diverge do esperado (não especificado no documento, apenas mencionado como divergente).  \n- [OK] Validade da Licença de Operação: Presente e correto\n- [OK] Nome do órgão emissor da licença: Presente e correto\n- [OK] Tipo ou nome do resíduo analisado: Presente e correto\n- [OK] Nome do laboratório responsável pelo laudo: Presente e correto\n- [OK] Data do laudo: Presente e correto\n- [OK] Assinatura ou identificação do responsável técnico: Presente e correto\n- [OK] Número ou código do certificado do laboratório: Presente e correto\n- [OK] Validade do certificado do laboratório: Presente e correto\n\n'}
 
-✅ Resultado salvo em: smart_documentos/temp/20250611_210330_relatorio_verificado.pdf
+✅ Resultado salvo em: smart_documentos/temp/20250611_221754_relatorio_verificado.pdf
 📤 Enviando resposta para smartauditor.teste@gmail.com...
 📧 E-mail enviado com sucesso!
 
 📧 Processando: smartauditor.teste@gmail.com | 5 anexo(s)
-🔍 Verificando documento: smart_documentos/temp/20250611_210330_acordo.pdf
+🔍 Verificando documento: smart_documentos/temp/20250611_221755_acordo.pdf
 
 📝 Texto extraído do PDF:
 
@@ -464,8 +257,8 @@ INFO: Aguardando 4 segundos para evitar limite de quota...
 🧠 Resultado bruto da IA:
 {'status': 'ok', 'resposta': '- [OK] Nome do fornecedor: Presente como "Ambiente Forte Serviços"\n- [OK] CNPJ do fornecedor: Presente como "55.666.777/0001-88"\n- [OK] Número da Licença de Operação: Presente como "001003/2025"\n- [OK] Validade da Licença de Operação: Presente como "20/12/2026"\n- [OK] Nome do órgão emissor da licença: Presente como "Prefeitura de Nova Lima"\n- [OK] Tipo ou nome do resíduo analisado: Presente como "Areia contaminada com óleo"\n- [OK] Nome do laboratório responsável pelo laudo: Presente como "QuimLab Soluções"\n- [OK] Data do laudo: Presente como "13/03/2025"\n- [OK] Assinatura ou identificação do responsável técnico: Presente como "Dr. Fulano de Tal - CREA 123456/D"\n- [OK] Número ou código do certificado do laboratório: Presente como "CERT-X3003"\n- [OK] Validade do certificado do laboratório: Presente como "31/12/2025"\n\n'}
 
-✅ Resultado salvo em: smart_documentos/temp/20250611_210330_acordo_verificado.pdf
-🔍 Verificando documento: smart_documentos/temp/20250611_210331_certificado.pdf
+✅ Resultado salvo em: smart_documentos/temp/20250611_221755_acordo_verificado.pdf
+🔍 Verificando documento: smart_documentos/temp/20250611_221755_certificado.pdf
 
 📝 Texto extraído do PDF:
 
@@ -497,8 +290,8 @@ INFO: Aguardando 4 segundos para evitar limite de quota...
 🧠 Resultado bruto da IA:
 {'status': 'ok', 'resposta': '- [OK] Nome do fornecedor: Presente como "Ambiente Forte Serviços"\n- [OK] CNPJ do fornecedor: Presente como "55.666.777/0001-88"\n- [OK] Número da Licença de Operação: Presente como "001003/2025"\n- [OK] Validade da Licença de Operação: Presente como "20/12/2026"\n- [OK] Nome do órgão emissor da licença: Presente como "Prefeitura de Nova Lima"\n- [OK] Tipo ou nome do resíduo analisado: Presente como "Areia contaminada com óleo"\n- [OK] Nome do laboratório responsável pelo laudo: Presente como "QuimLab Soluções"\n- [OK] Data do laudo: Presente como "13/03/2025"\n- [OK] Assinatura ou identificação do responsável técnico: Presente como "Dr. Fulano de Tal - CREA 123456/D"\n- [OK] Número ou código do certificado do laboratório: Presente como "CERT-X3003"\n- [OK] Validade do certificado do laboratório: Presente como "31/12/2025"\n\n'}
 
-✅ Resultado salvo em: smart_documentos/temp/20250611_210331_certificado_verificado.pdf
-🔍 Verificando documento: smart_documentos/temp/20250611_210331_laudo.pdf
+✅ Resultado salvo em: smart_documentos/temp/20250611_221755_certificado_verificado.pdf
+🔍 Verificando documento: smart_documentos/temp/20250611_221755_laudo.pdf
 
 📝 Texto extraído do PDF:
 
@@ -530,8 +323,8 @@ INFO: Aguardando 4 segundos para evitar limite de quota...
 🧠 Resultado bruto da IA:
 {'status': 'ok', 'resposta': '- [OK] Nome do fornecedor: Presente como "Ambiente Forte Serviços"\n- [OK] CNPJ do fornecedor: Presente como "55.666.777/0001-88"\n- [OK] Número da Licença de Operação: Presente como "001003/2025"\n- [OK] Validade da Licença de Operação: Presente como "20/12/2026"\n- [OK] Nome do órgão emissor da licença: Presente como "Prefeitura de Nova Lima"\n- [OK] Tipo ou nome do resíduo analisado: Presente como "Areia contaminada com óleo"\n- [OK] Nome do laboratório responsável pelo laudo: Presente como "QuimLab Soluções"\n- [OK] Data do laudo: Presente como "13/03/2025"\n- [OK] Assinatura ou identificação do responsável técnico: Presente como "Dr. Fulano de Tal - CREA 123456/D"\n- [OK] Número ou código do certificado do laboratório: Presente como "CERT-X3003"\n- [OK] Validade do certificado do laboratório: Presente como "31/12/2025"\n\n'}
 
-✅ Resultado salvo em: smart_documentos/temp/20250611_210331_laudo_verificado.pdf
-🔍 Verificando documento: smart_documentos/temp/20250611_210332_licenca.pdf
+✅ Resultado salvo em: smart_documentos/temp/20250611_221755_laudo_verificado.pdf
+🔍 Verificando documento: smart_documentos/temp/20250611_221756_licenca.pdf
 
 📝 Texto extraído do PDF:
 
@@ -561,10 +354,10 @@ Ruído adicional
 - Este documento contém dados inconsistentes propositalmente.
 INFO: Aguardando 4 segundos para evitar limite de quota...
 🧠 Resultado bruto da IA:
-{'status': 'ok', 'resposta': '- [OK] Nome do fornecedor: Presente como "Ambiente Forte Serviços"\n- [OK] CNPJ do fornecedor: Presente como "55.666.777/0001-88"\n- [OK] Número da Licença de Operação: Presente como "001003/2025"\n- [OK] Validade da Licença de Operação: Presente como "20/12/2026"\n- [OK] Nome do órgão emissor da licença: Presente como "Prefeitura de Nova Lima"\n- [OK] Tipo ou nome do resíduo analisado: Presente como "Areia contaminada com óleo"\n- [OK] Nome do laboratório responsável pelo laudo: Presente como "QuimLab Soluções"\n- [OK] Data do laudo: Presente como "13/03/2025"\n- [OK] Assinatura ou identificação do responsável técnico: Presente como "Dr. Fulano de Tal - CREA 123456/D"\n- [OK] Número ou código do certificado do laboratório: Presente como "CERT-X3003"\n- [OK] Validade do certificado do laboratório: Presente como "31/12/2025"\n\n'}
+{'status': 'ok', 'resposta': '- [OK] Nome do fornecedor: Presente no documento como "Ambiente Forte Serviços".\n- [OK] CNPJ do fornecedor: Presente no documento como "55.666.777/0001-88".\n- [OK] Número da Licença de Operação: Presente no documento como "001003/2025".\n- [OK] Validade da Licença de Operação: Presente no documento como "20/12/2026".\n- [OK] Nome do órgão emissor da licença: Presente no documento como "Prefeitura de Nova Lima".\n- [OK] Tipo ou nome do resíduo analisado: Presente no documento como "Areia contaminada com óleo".\n- [OK] Nome do laboratório responsável pelo laudo: Presente no documento como "QuimLab Soluções".\n- [OK] Data do laudo: Presente no documento como "13/03/2025".\n- [OK] Assinatura ou identificação do responsável técnico: Presente no documento como "Dr. Fulano de Tal - CREA 123456/D".\n- [OK] Número ou código do certificado do laboratório: Presente no documento como "CERT-X3003".\n- [OK] Validade do certificado do laboratório: Presente no documento como "31/12/2025".\n\n'}
 
-✅ Resultado salvo em: smart_documentos/temp/20250611_210332_licenca_verificado.pdf
-🔍 Verificando documento: smart_documentos/temp/20250611_210332_relatorio.pdf
+✅ Resultado salvo em: smart_documentos/temp/20250611_221756_licenca_verificado.pdf
+🔍 Verificando documento: smart_documentos/temp/20250611_221756_relatorio.pdf
 
 📝 Texto extraído do PDF:
 
@@ -587,14 +380,14 @@ Essas divergências devem ser analisadas antes de validar a homologação do for
 _Data da Verificação: 21/05/2025_
 INFO: Aguardando 4 segundos para evitar limite de quota...
 🧠 Resultado bruto da IA:
-{'status': 'ok', 'resposta': '- [OK] Nome do fornecedor: Presente e correto\n- [OK] CNPJ do fornecedor: Presente e correto\n- [OK] Número da Licença de Operação: Presente e correto\n- [OK] Validade da Licença de Operação: Presente e correto\n- [OK] Nome do órgão emissor da licença: Presente e correto\n- [OK] Tipo ou nome do resíduo analisado: Presente e correto\n- [OK] Nome do laboratório responsável pelo laudo: Presente e correto\n- [OK] Data do laudo: Presente e correto\n- [OK] Assinatura ou identificação do responsável técnico: Presente e correto\n- [DIVERGENTE] Número ou código do certificado do laboratório: O relatório indica divergência, sem especificar o valor esperado.\n- [OK] Validade do certificado do laboratório: Presente e correto\n\n'}
+{'status': 'ok', 'resposta': '- [OK] Nome do fornecedor: Presente e correto\n- [OK] CNPJ do fornecedor: Presente e correto\n- [OK] Número da Licença de Operação: Presente e correto\n- [OK] Validade da Licença de Operação: Presente e correto\n- [OK] Nome do órgão emissor da licença: Presente e correto\n- [OK] Tipo ou nome do resíduo analisado: Presente e correto\n- [OK] Nome do laboratório responsável pelo laudo: Presente e correto\n- [OK] Data do laudo: Presente e correto\n- [OK] Assinatura ou identificação do responsável técnico: Presente e correto\n- [DIVERGENTE] Número ou código do certificado do laboratório: O texto indica divergência, mas não especifica o valor esperado.\n- [OK] Validade do certificado do laboratório: Presente e correto\n\n'}
 
-✅ Resultado salvo em: smart_documentos/temp/20250611_210332_relatorio_verificado.pdf
+✅ Resultado salvo em: smart_documentos/temp/20250611_221756_relatorio_verificado.pdf
 📤 Enviando resposta para smartauditor.teste@gmail.com...
 📧 E-mail enviado com sucesso!
 
 📧 Processando: smartauditor.teste@gmail.com | 5 anexo(s)
-🔍 Verificando documento: smart_documentos/temp/20250611_210333_acordo.pdf
+🔍 Verificando documento: smart_documentos/temp/20250611_221757_acordo.pdf
 
 📝 Texto extraído do PDF:
 
@@ -624,10 +417,10 @@ Ruído adicional
 - Este documento contém dados inconsistentes propositalmente.
 INFO: Aguardando 4 segundos para evitar limite de quota...
 🧠 Resultado bruto da IA:
-{'status': 'ok', 'resposta': '- [OK] Nome do fornecedor: Presente como "Empresa Fantasma Ltda."\n- [OK] CNPJ do fornecedor: Presente como "11.222.333/0001-44"\n- [OK] Número da Licença de Operação: Presente como "001002/2025"\n- [OK] Validade da Licença de Operação: Presente como "20/12/2026"\n- [OK] Nome do órgão emissor da licença: Presente como "Prefeitura de Betim"\n- [OK] Tipo ou nome do resíduo analisado: Presente como "Lodo de estação de tratamento"\n- [OK] Nome do laboratório responsável pelo laudo: Presente como "GeoTec Ambiental"\n- [OK] Data do laudo: Presente como "12/03/2025"\n- [OK] Assinatura ou identificação do responsável técnico: Presente como "Dr. Fulano de Tal - CREA 123456/D"\n- [OK] Número ou código do certificado do laboratório: Presente como "CERT-3002"\n- [OK] Validade do certificado do laboratório: Presente como "31/12/2025"\n\n'}
+{'status': 'ok', 'resposta': '- [OK] Nome do fornecedor: Presente e correto.\n- [OK] CNPJ do fornecedor: Presente e correto.\n- [OK] Número da Licença de Operação: Presente e correto.\n- [OK] Validade da Licença de Operação: Presente e correto.\n- [OK] Nome do órgão emissor da licença: Presente e correto.\n- [OK] Tipo ou nome do resíduo analisado: Presente e correto.\n- [OK] Nome do laboratório responsável pelo laudo: Presente e correto.\n- [OK] Data do laudo: Presente e correto.\n- [OK] Assinatura ou identificação do responsável técnico: Presente e correto.\n- [OK] Número ou código do certificado do laboratório: Presente e correto.\n- [OK] Validade do certificado do laboratório: Presente e correto.\n\n'}
 
-✅ Resultado salvo em: smart_documentos/temp/20250611_210333_acordo_verificado.pdf
-🔍 Verificando documento: smart_documentos/temp/20250611_210333_certificado.pdf
+✅ Resultado salvo em: smart_documentos/temp/20250611_221757_acordo_verificado.pdf
+🔍 Verificando documento: smart_documentos/temp/20250611_221757_certificado.pdf
 
 📝 Texto extraído do PDF:
 
@@ -659,8 +452,8 @@ INFO: Aguardando 4 segundos para evitar limite de quota...
 🧠 Resultado bruto da IA:
 {'status': 'ok', 'resposta': '- [OK] Nome do fornecedor: Presente como "Empresa Fantasma Ltda."\n- [OK] CNPJ do fornecedor: Presente como "11.222.333/0001-44"\n- [OK] Número da Licença de Operação: Presente como "001002/2025"\n- [OK] Validade da Licença de Operação: Presente como "20/12/2026"\n- [OK] Nome do órgão emissor da licença: Presente como "Prefeitura de Betim"\n- [OK] Tipo ou nome do resíduo analisado: Presente como "Lodo de estação de tratamento"\n- [OK] Nome do laboratório responsável pelo laudo: Presente como "GeoTec Ambiental"\n- [OK] Data do laudo: Presente como "12/03/2025"\n- [OK] Assinatura ou identificação do responsável técnico: Presente como "Dr. Fulano de Tal - CREA 123456/D"\n- [OK] Número ou código do certificado do laboratório: Presente como "CERT-3002"\n- [OK] Validade do certificado do laboratório: Presente como "31/12/2025"\n\n'}
 
-✅ Resultado salvo em: smart_documentos/temp/20250611_210333_certificado_verificado.pdf
-🔍 Verificando documento: smart_documentos/temp/20250611_210333_laudo.pdf
+✅ Resultado salvo em: smart_documentos/temp/20250611_221757_certificado_verificado.pdf
+🔍 Verificando documento: smart_documentos/temp/20250611_221757_laudo.pdf
 
 📝 Texto extraído do PDF:
 
@@ -692,8 +485,8 @@ INFO: Aguardando 4 segundos para evitar limite de quota...
 🧠 Resultado bruto da IA:
 {'status': 'ok', 'resposta': '- [OK] Nome do fornecedor: Presente como "Empresa Fantasma Ltda."\n- [OK] CNPJ do fornecedor: Presente como "11.222.333/0001-44"\n- [OK] Número da Licença de Operação: Presente como "001002/2025"\n- [OK] Validade da Licença de Operação: Presente como "20/12/2026"\n- [OK] Nome do órgão emissor da licença: Presente como "Prefeitura de Betim"\n- [OK] Tipo ou nome do resíduo analisado: Presente como "Lodo de estação de tratamento"\n- [OK] Nome do laboratório responsável pelo laudo: Presente como "GeoTec Ambiental"\n- [OK] Data do laudo: Presente como "12/03/2025"\n- [OK] Assinatura ou identificação do responsável técnico: Presente como "Dr. Fulano de Tal - CREA 123456/D"\n- [OK] Número ou código do certificado do laboratório: Presente como "CERT-3002"\n- [OK] Validade do certificado do laboratório: Presente como "31/12/2025"\n\n'}
 
-✅ Resultado salvo em: smart_documentos/temp/20250611_210333_laudo_verificado.pdf
-🔍 Verificando documento: smart_documentos/temp/20250611_210334_licenca.pdf
+✅ Resultado salvo em: smart_documentos/temp/20250611_221757_laudo_verificado.pdf
+🔍 Verificando documento: smart_documentos/temp/20250611_221758_licenca.pdf
 
 📝 Texto extraído do PDF:
 
@@ -725,8 +518,8 @@ INFO: Aguardando 4 segundos para evitar limite de quota...
 🧠 Resultado bruto da IA:
 {'status': 'ok', 'resposta': '- [OK] Nome do fornecedor: Presente e correto.\n- [OK] CNPJ do fornecedor: Presente e correto.\n- [OK] Número da Licença de Operação: Presente e correto.\n- [OK] Validade da Licença de Operação: Presente e correto.\n- [OK] Nome do órgão emissor da licença: Presente e correto.\n- [OK] Tipo ou nome do resíduo analisado: Presente e correto.\n- [OK] Nome do laboratório responsável pelo laudo: Presente e correto.\n- [OK] Data do laudo: Presente e correto.\n- [OK] Assinatura ou identificação do responsável técnico: Presente e correto.\n- [OK] Número ou código do certificado do laboratório: Presente e correto.\n- [OK] Validade do certificado do laboratório: Presente e correto.\n\n'}
 
-✅ Resultado salvo em: smart_documentos/temp/20250611_210334_licenca_verificado.pdf
-🔍 Verificando documento: smart_documentos/temp/20250611_210334_relatorio.pdf
+✅ Resultado salvo em: smart_documentos/temp/20250611_221758_licenca_verificado.pdf
+🔍 Verificando documento: smart_documentos/temp/20250611_221758_relatorio.pdf
 
 📝 Texto extraído do PDF:
 
@@ -749,14 +542,14 @@ Essas divergências devem ser analisadas antes de validar a homologação do for
 _Data da Verificação: 21/05/2025_
 INFO: Aguardando 4 segundos para evitar limite de quota...
 🧠 Resultado bruto da IA:
-{'status': 'ok', 'resposta': '- [OK] Nome do fornecedor: Divergente, mas a informação está presente.\n- [OK] CNPJ do fornecedor: \n- [OK] Número da Licença de Operação: \n- [OK] Validade da Licença de Operação: \n- [OK] Nome do órgão emissor da licença: \n- [OK] Tipo ou nome do resíduo analisado: \n- [OK] Nome do laboratório responsável pelo laudo: \n- [OK] Data do laudo: \n- [OK] Assinatura ou identificação do responsável técnico: \n- [OK] Número ou código do certificado do laboratório: \n- [OK] Validade do certificado do laboratório: \n\n'}
+{'status': 'ok', 'resposta': '- [OK] Nome do fornecedor: Divergente, mas a divergência foi apontada corretamente no documento.\n- [OK] CNPJ do fornecedor: Presente e correto.\n- [OK] Número da Licença de Operação: Presente e correto.\n- [OK] Validade da Licença de Operação: Presente e correto.\n- [OK] Nome do órgão emissor da licença: Presente e correto.\n- [OK] Tipo ou nome do resíduo analisado: Presente e correto.\n- [OK] Nome do laboratório responsável pelo laudo: Presente e correto.\n- [OK] Data do laudo: Presente e correto.\n- [OK] Assinatura ou identificação do responsável técnico: Presente e correto.\n- [OK] Número ou código do certificado do laboratório: Presente e correto.\n- [OK] Validade do certificado do laboratório: Presente e correto.\n\n'}
 
-✅ Resultado salvo em: smart_documentos/temp/20250611_210334_relatorio_verificado.pdf
+✅ Resultado salvo em: smart_documentos/temp/20250611_221758_relatorio_verificado.pdf
 📤 Enviando resposta para smartauditor.teste@gmail.com...
 📧 E-mail enviado com sucesso!
 
 📧 Processando: smartauditor.teste@gmail.com | 5 anexo(s)
-🔍 Verificando documento: smart_documentos/temp/20250611_210335_acordo.pdf
+🔍 Verificando documento: smart_documentos/temp/20250611_221758_acordo.pdf
 
 📝 Texto extraído do PDF:
 
@@ -786,10 +579,10 @@ Ruído adicional
 - Este documento contém dados inconsistentes propositalmente.
 INFO: Aguardando 4 segundos para evitar limite de quota...
 🧠 Resultado bruto da IA:
-{'status': 'ok', 'resposta': '- [OK] Nome do fornecedor: Presente e correto.\n- [OK] CNPJ do fornecedor: Presente e correto.\n- [OK] Número da Licença de Operação: Presente e correto.\n- [OK] Validade da Licença de Operação: Presente e correto.\n- [OK] Nome do órgão emissor da licença: Presente e correto.\n- [OK] Tipo ou nome do resíduo analisado: Presente e correto.\n- [OK] Nome do laboratório responsável pelo laudo: Presente e correto.\n- [OK] Data do laudo: Presente e correto.\n- [OK] Assinatura ou identificação do responsável técnico: Presente e correto (apesar de não ser uma assinatura propriamente dita, a identificação com CREA é suficiente).\n- [OK] Número ou código do certificado do laboratório: Presente e correto.\n- [OK] Validade do certificado do laboratório: Presente e correto.\n\n'}
+{'status': 'ok', 'resposta': '- [OK] Nome do fornecedor: Presente como "VerdeLimpo Ambiental"\n- [OK] CNPJ do fornecedor: Presente como "98.765.432/0001-12"\n- [OK] Número da Licença de Operação: Presente como "001001/2025"\n- [OK] Validade da Licença de Operação: Presente como "20/12/2026"\n- [OK] Nome do órgão emissor da licença: Presente como "Prefeitura de Contagem"\n- [OK] Tipo ou nome do resíduo analisado: Presente como "Resíduo de escória de alto-forno"\n- [OK] Nome do laboratório responsável pelo laudo: Presente como "FakeLab Ambiental"\n- [OK] Data do laudo: Presente como "11/03/2025"\n- [OK] Assinatura ou identificação do responsável técnico: Presente como "Dr. Fulano de Tal - CREA 123456/D"\n- [OK] Número ou código do certificado do laboratório: Presente como "CERT-3001"\n- [OK] Validade do certificado do laboratório: Presente como "31/12/2025"\n\n'}
 
-✅ Resultado salvo em: smart_documentos/temp/20250611_210335_acordo_verificado.pdf
-🔍 Verificando documento: smart_documentos/temp/20250611_210335_certificado.pdf
+✅ Resultado salvo em: smart_documentos/temp/20250611_221758_acordo_verificado.pdf
+🔍 Verificando documento: smart_documentos/temp/20250611_221759_certificado.pdf
 
 📝 Texto extraído do PDF:
 
@@ -821,8 +614,8 @@ INFO: Aguardando 4 segundos para evitar limite de quota...
 🧠 Resultado bruto da IA:
 {'status': 'ok', 'resposta': '- [OK] Nome do fornecedor: Presente como "VerdeLimpo Ambiental"\n- [OK] CNPJ do fornecedor: Presente como "98.765.432/0001-12"\n- [OK] Número da Licença de Operação: Presente como "001001/2025"\n- [OK] Validade da Licença de Operação: Presente como "20/12/2026"\n- [OK] Nome do órgão emissor da licença: Presente como "Prefeitura de Contagem"\n- [OK] Tipo ou nome do resíduo analisado: Presente como "Resíduo de escória de alto-forno"\n- [OK] Nome do laboratório responsável pelo laudo: Presente como "FakeLab Ambiental"\n- [OK] Data do laudo: Presente como "11/03/2025"\n- [OK] Assinatura ou identificação do responsável técnico: Presente como "Dr. Fulano de Tal - CREA 123456/D"\n- [OK] Número ou código do certificado do laboratório: Presente como "CERT-3001"\n- [OK] Validade do certificado do laboratório: Presente como "31/12/2025"\n\n'}
 
-✅ Resultado salvo em: smart_documentos/temp/20250611_210335_certificado_verificado.pdf
-🔍 Verificando documento: smart_documentos/temp/20250611_210335_laudo.pdf
+✅ Resultado salvo em: smart_documentos/temp/20250611_221759_certificado_verificado.pdf
+🔍 Verificando documento: smart_documentos/temp/20250611_221759_laudo.pdf
 
 📝 Texto extraído do PDF:
 
@@ -852,10 +645,10 @@ Ruído adicional
 - Este documento contém dados inconsistentes propositalmente.
 INFO: Aguardando 4 segundos para evitar limite de quota...
 🧠 Resultado bruto da IA:
-{'status': 'ok', 'resposta': '- [OK] Nome do fornecedor: Presente e correto.\n- [OK] CNPJ do fornecedor: Presente e correto.\n- [OK] Número da Licença de Operação: Presente e correto.\n- [OK] Validade da Licença de Operação: Presente e correto.\n- [OK] Nome do órgão emissor da licença: Presente e correto.\n- [OK] Tipo ou nome do resíduo analisado: Presente e correto.\n- [OK] Nome do laboratório responsável pelo laudo: Presente e correto.\n- [OK] Data do laudo: Presente e correto.\n- [OK] Assinatura ou identificação do responsável técnico: Presente e correto.\n- [OK] Número ou código do certificado do laboratório: Presente e correto.\n- [OK] Validade do certificado do laboratório: Presente e correto.\n\n'}
+{'status': 'ok', 'resposta': '- [OK] Nome do fornecedor: Presente e correto.\n- [OK] CNPJ do fornecedor: Presente e correto.\n- [OK] Número da Licença de Operação: Presente e correto.\n- [OK] Validade da Licença de Operação: Presente e correto.\n- [OK] Nome do órgão emissor da licença: Presente e correto.\n- [OK] Tipo ou nome do resíduo analisado: Presente e correto.\n- [OK] Nome do laboratório responsável pelo laudo: Presente e correto.\n- [OK] Data do laudo: Presente e correto.\n- [OK] Assinatura ou identificação do responsável técnico: Presente e correto.  (Considerando o CREA como identificação).\n- [OK] Número ou código do certificado do laboratório: Presente e correto.\n- [OK] Validade do certificado do laboratório: Presente e correto.\n\n'}
 
-✅ Resultado salvo em: smart_documentos/temp/20250611_210335_laudo_verificado.pdf
-🔍 Verificando documento: smart_documentos/temp/20250611_210336_licenca.pdf
+✅ Resultado salvo em: smart_documentos/temp/20250611_221759_laudo_verificado.pdf
+🔍 Verificando documento: smart_documentos/temp/20250611_221759_licenca.pdf
 
 📝 Texto extraído do PDF:
 
@@ -887,8 +680,8 @@ INFO: Aguardando 4 segundos para evitar limite de quota...
 🧠 Resultado bruto da IA:
 {'status': 'ok', 'resposta': '- [OK] Nome do fornecedor: Presente e correto.\n- [OK] CNPJ do fornecedor: Presente e correto.\n- [OK] Número da Licença de Operação: Presente e correto.\n- [OK] Validade da Licença de Operação: Presente e correto.\n- [OK] Nome do órgão emissor da licença: Presente e correto.\n- [OK] Tipo ou nome do resíduo analisado: Presente e correto.\n- [OK] Nome do laboratório responsável pelo laudo: Presente e correto.\n- [OK] Data do laudo: Presente e correto.\n- [OK] Assinatura ou identificação do responsável técnico: Presente e correto.\n- [OK] Número ou código do certificado do laboratório: Presente e correto.\n- [OK] Validade do certificado do laboratório: Presente e correto.\n\n'}
 
-✅ Resultado salvo em: smart_documentos/temp/20250611_210336_licenca_verificado.pdf
-🔍 Verificando documento: smart_documentos/temp/20250611_210336_relatorio.pdf
+✅ Resultado salvo em: smart_documentos/temp/20250611_221759_licenca_verificado.pdf
+🔍 Verificando documento: smart_documentos/temp/20250611_221800_relatorio.pdf
 
 📝 Texto extraído do PDF:
 
@@ -911,14 +704,14 @@ Essas divergências devem ser analisadas antes de validar a homologação do for
 _Data da Verificação: 21/05/2025_
 INFO: Aguardando 4 segundos para evitar limite de quota...
 🧠 Resultado bruto da IA:
-{'status': 'ok', 'resposta': '- [OK] Nome do fornecedor: Presente e correto\n- [OK] CNPJ do fornecedor: Presente e correto\n- [OK] Número da Licença de Operação: Presente e correto\n- [OK] Validade da Licença de Operação: Presente e correto\n- [OK] Nome do órgão emissor da licença: Presente e correto\n- [OK] Tipo ou nome do resíduo analisado: Presente e correto\n- [DIVERGENTE] Nome do laboratório responsável pelo laudo:  O nome do laboratório "FakeLab Ambiental" pode ser divergente dependendo do esperado.  Mais informações são necessárias para classificar como divergente ou OK.\n- [OK] Data do laudo: Presente e correto\n- [OK] Assinatura ou identificação do responsável técnico: Presente e correto\n- [OK] Número ou código do certificado do laboratório: Presente e correto\n- [OK] Validade do certificado do laboratório: Presente e correto\n\n'}
+{'status': 'ok', 'resposta': '- [OK] Nome do fornecedor: Presente e correto\n- [OK] CNPJ do fornecedor: Presente e correto\n- [OK] Número da Licença de Operação: Presente e correto\n- [OK] Validade da Licença de Operação: Presente e correto\n- [OK] Nome do órgão emissor da licença: Presente e correto\n- [OK] Tipo ou nome do resíduo analisado: Presente e correto\n- [DIVERGENTE] Nome do laboratório responsável pelo laudo:  A descrição indica divergência.\n- [OK] Data do laudo: Presente e correto\n- [OK] Assinatura ou identificação do responsável técnico: Presente e correto\n- [OK] Número ou código do certificado do laboratório: Presente e correto\n- [OK] Validade do certificado do laboratório: Presente e correto\n\n'}
 
-✅ Resultado salvo em: smart_documentos/temp/20250611_210336_relatorio_verificado.pdf
+✅ Resultado salvo em: smart_documentos/temp/20250611_221800_relatorio_verificado.pdf
 📤 Enviando resposta para smartauditor.teste@gmail.com...
 📧 E-mail enviado com sucesso!
 
 📧 Processando: smartauditor.teste@gmail.com | 5 anexo(s)
-🔍 Verificando documento: smart_documentos/temp/20250611_210337_acordo.pdf
+🔍 Verificando documento: smart_documentos/temp/20250611_221800_acordo.pdf
 
 📝 Texto extraído do PDF:
 
@@ -948,10 +741,10 @@ Ruído adicional
 - Este documento contém dados inconsistentes propositalmente.
 INFO: Aguardando 4 segundos para evitar limite de quota...
 🧠 Resultado bruto da IA:
-{'status': 'ok', 'resposta': '- [OK] Nome do fornecedor: Presente como "EcoResíduos Ltda."\n- [OK] CNPJ do fornecedor: Presente como "00.000.000/0000-00"\n- [OK] Número da Licença de Operação: Presente como "001000/2025"\n- [OK] Validade da Licença de Operação: Presente como "20/12/2026"\n- [OK] Nome do órgão emissor da licença: Presente como "Prefeitura de Belo Horizonte"\n- [OK] Tipo ou nome do resíduo analisado: Presente como "Cinza industrial classe II"\n- [OK] Nome do laboratório responsável pelo laudo: Presente como "LabAmbiente Análises"\n- [OK] Data do laudo: Presente como "10/03/2025"\n- [OK] Assinatura ou identificação do responsável técnico: Presente como "Dr. Fulano de Tal - CREA 123456/D"\n- [OK] Número ou código do certificado do laboratório: Presente como "CERT-3000"\n- [OK] Validade do certificado do laboratório: Presente como "31/12/2025"\n\n'}
+{'status': 'ok', 'resposta': '- [OK] Nome do fornecedor: Presente e correto.\n- [OK] CNPJ do fornecedor: Presente e correto.\n- [OK] Número da Licença de Operação: Presente e correto.\n- [OK] Validade da Licença de Operação: Presente e correto.\n- [OK] Nome do órgão emissor da licença: Presente e correto.\n- [OK] Tipo ou nome do resíduo analisado: Presente e correto.\n- [OK] Nome do laboratório responsável pelo laudo: Presente e correto.\n- [OK] Data do laudo: Presente e correto.\n- [OK] Assinatura ou identificação do responsável técnico: Presente e correto.  \n- [OK] Número ou código do certificado do laboratório: Presente e correto.\n- [OK] Validade do certificado do laboratório: Presente e correto.\n\n'}
 
-✅ Resultado salvo em: smart_documentos/temp/20250611_210337_acordo_verificado.pdf
-🔍 Verificando documento: smart_documentos/temp/20250611_210337_certificado.pdf
+✅ Resultado salvo em: smart_documentos/temp/20250611_221800_acordo_verificado.pdf
+🔍 Verificando documento: smart_documentos/temp/20250611_221801_certificado.pdf
 
 📝 Texto extraído do PDF:
 
@@ -981,10 +774,10 @@ Ruído adicional
 - Este documento contém dados inconsistentes propositalmente.
 INFO: Aguardando 4 segundos para evitar limite de quota...
 🧠 Resultado bruto da IA:
-{'status': 'ok', 'resposta': '- [OK] Nome do fornecedor: Presente no documento como "EcoResíduos Ltda."\n- [OK] CNPJ do fornecedor: Presente no documento como "00.000.000/0000-00"\n- [OK] Número da Licença de Operação: Presente no documento como "001000/2025"\n- [OK] Validade da Licença de Operação: Presente no documento como "20/12/2026"\n- [OK] Nome do órgão emissor da licença: Presente no documento como "Prefeitura de Belo Horizonte"\n- [OK] Tipo ou nome do resíduo analisado: Presente no documento como "Cinza industrial classe II"\n- [OK] Nome do laboratório responsável pelo laudo: Presente no documento como "LabAmbiente Análises"\n- [OK] Data do laudo: Presente no documento como "10/03/2025"\n- [OK] Assinatura ou identificação do responsável técnico: Presente no documento como "Dr. Fulano de Tal - CREA 123456/D"\n- [OK] Número ou código do certificado do laboratório: Presente no documento como "CERT-3000"\n- [OK] Validade do certificado do laboratório: Presente no documento como "31/12/2025"\n\n'}
+{'status': 'ok', 'resposta': '- [OK] Nome do fornecedor: Presente e correto.\n- [OK] CNPJ do fornecedor: Presente e correto.\n- [OK] Número da Licença de Operação: Presente e correto.\n- [OK] Validade da Licença de Operação: Presente e correto.\n- [OK] Nome do órgão emissor da licença: Presente e correto.\n- [OK] Tipo ou nome do resíduo analisado: Presente e correto.\n- [OK] Nome do laboratório responsável pelo laudo: Presente e correto.\n- [OK] Data do laudo: Presente e correto.\n- [OK] Assinatura ou identificação do responsável técnico: Presente e correto.\n- [OK] Número ou código do certificado do laboratório: Presente e correto.\n- [OK] Validade do certificado do laboratório: Presente e correto.\n\n'}
 
-✅ Resultado salvo em: smart_documentos/temp/20250611_210337_certificado_verificado.pdf
-🔍 Verificando documento: smart_documentos/temp/20250611_210337_laudo.pdf
+✅ Resultado salvo em: smart_documentos/temp/20250611_221801_certificado_verificado.pdf
+🔍 Verificando documento: smart_documentos/temp/20250611_221801_laudo.pdf
 
 📝 Texto extraído do PDF:
 
@@ -1014,10 +807,10 @@ Ruído adicional
 - Este documento contém dados inconsistentes propositalmente.
 INFO: Aguardando 4 segundos para evitar limite de quota...
 🧠 Resultado bruto da IA:
-{'status': 'ok', 'resposta': '- [OK] Nome do fornecedor: Presente como "EcoResíduos Ltda."\n- [OK] CNPJ do fornecedor: Presente como "00.000.000/0000-00"\n- [OK] Número da Licença de Operação: Presente como "001000/2025"\n- [OK] Validade da Licença de Operação: Presente como "20/12/2026"\n- [OK] Nome do órgão emissor da licença: Presente como "Prefeitura de Belo Horizonte"\n- [OK] Tipo ou nome do resíduo analisado: Presente como "Cinza industrial classe II"\n- [OK] Nome do laboratório responsável pelo laudo: Presente como "LabAmbiente Análises"\n- [OK] Data do laudo: Presente como "10/03/2025"\n- [OK] Assinatura ou identificação do responsável técnico: Presente como "Dr. Fulano de Tal - CREA 123456/D"\n- [OK] Número ou código do certificado do laboratório: Presente como "CERT-3000"\n- [OK] Validade do certificado do laboratório: Presente como "31/12/2025"\n\n'}
+{'status': 'ok', 'resposta': '- [OK] Nome do fornecedor: Presente e correto.\n- [OK] CNPJ do fornecedor: Presente e correto.\n- [OK] Número da Licença de Operação: Presente e correto.\n- [OK] Validade da Licença de Operação: Presente e correto.\n- [OK] Nome do órgão emissor da licença: Presente e correto.\n- [OK] Tipo ou nome do resíduo analisado: Presente e correto.\n- [OK] Nome do laboratório responsável pelo laudo: Presente e correto.\n- [OK] Data do laudo: Presente e correto.\n- [OK] Assinatura ou identificação do responsável técnico: Presente e correto.\n- [OK] Número ou código do certificado do laboratório: Presente e correto.\n- [OK] Validade do certificado do laboratório: Presente e correto.\n\n'}
 
-✅ Resultado salvo em: smart_documentos/temp/20250611_210337_laudo_verificado.pdf
-🔍 Verificando documento: smart_documentos/temp/20250611_210338_licenca.pdf
+✅ Resultado salvo em: smart_documentos/temp/20250611_221801_laudo_verificado.pdf
+🔍 Verificando documento: smart_documentos/temp/20250611_221801_licenca.pdf
 
 📝 Texto extraído do PDF:
 
@@ -1049,8 +842,8 @@ INFO: Aguardando 4 segundos para evitar limite de quota...
 🧠 Resultado bruto da IA:
 {'status': 'ok', 'resposta': '- [OK] Nome do fornecedor: Presente e correto.\n- [OK] CNPJ do fornecedor: Presente e correto.\n- [OK] Número da Licença de Operação: Presente e correto.\n- [OK] Validade da Licença de Operação: Presente e correto.\n- [OK] Nome do órgão emissor da licença: Presente e correto.\n- [OK] Tipo ou nome do resíduo analisado: Presente e correto.\n- [OK] Nome do laboratório responsável pelo laudo: Presente e correto.\n- [OK] Data do laudo: Presente e correto.\n- [OK] Assinatura ou identificação do responsável técnico: Presente e correto.\n- [OK] Número ou código do certificado do laboratório: Presente e correto.\n- [OK] Validade do certificado do laboratório: Presente e correto.\n\n'}
 
-✅ Resultado salvo em: smart_documentos/temp/20250611_210338_licenca_verificado.pdf
-🔍 Verificando documento: smart_documentos/temp/20250611_210338_relatorio.pdf
+✅ Resultado salvo em: smart_documentos/temp/20250611_221801_licenca_verificado.pdf
+🔍 Verificando documento: smart_documentos/temp/20250611_221802_relatorio.pdf
 
 📝 Texto extraído do PDF:
 
@@ -1073,14 +866,14 @@ Essas divergências devem ser analisadas antes de validar a homologação do for
 _Data da Verificação: 21/05/2025_
 INFO: Aguardando 4 segundos para evitar limite de quota...
 🧠 Resultado bruto da IA:
-{'status': 'ok', 'resposta': '- [OK] Nome do fornecedor: Presente e correto\n- [DIVERGENTE] CNPJ do fornecedor: Valor encontrado como "00.000.000/0000-00" é considerado divergente.\n- [OK] Número da Licença de Operação: Presente e correto\n- [OK] Validade da Licença de Operação: Presente e correto\n- [OK] Nome do órgão emissor da licença: Presente e correto\n- [OK] Tipo ou nome do resíduo analisado: Presente e correto\n- [OK] Nome do laboratório responsável pelo laudo: Presente e correto\n- [OK] Data do laudo: Presente e correto\n- [OK] Assinatura ou identificação do responsável técnico: Presente e correto\n- [OK] Número ou código do certificado do laboratório: Presente e correto\n- [OK] Validade do certificado do laboratório: Presente e correto\n\n'}
+{'status': 'ok', 'resposta': '- [OK] Nome do fornecedor: Presente e correto.\n- [DIVERGENTE] CNPJ do fornecedor: Valor encontrado difere do esperado.\n- [OK] Número da Licença de Operação: Presente e correto.\n- [OK] Validade da Licença de Operação: Presente e correto.\n- [OK] Nome do órgão emissor da licença: Presente e correto.\n- [OK] Tipo ou nome do resíduo analisado: Presente e correto.\n- [OK] Nome do laboratório responsável pelo laudo: Presente e correto.\n- [OK] Data do laudo: Presente e correto.\n- [OK] Assinatura ou identificação do responsável técnico: Presente e correto.\n- [OK] Número ou código do certificado do laboratório: Presente e correto.\n- [OK] Validade do certificado do laboratório: Presente e correto.\n\n'}
 
-✅ Resultado salvo em: smart_documentos/temp/20250611_210338_relatorio_verificado.pdf
+✅ Resultado salvo em: smart_documentos/temp/20250611_221802_relatorio_verificado.pdf
 📤 Enviando resposta para smartauditor.teste@gmail.com...
 📧 E-mail enviado com sucesso!
 
 📧 Processando: smartauditor.teste@gmail.com | 5 anexo(s)
-🔍 Verificando documento: smart_documentos/temp/20250611_210339_acordo.pdf
+🔍 Verificando documento: smart_documentos/temp/20250611_221802_acordo.pdf
 
 📝 Texto extraído do PDF:
 
@@ -1120,8 +913,8 @@ INFO: Aguardando 4 segundos para evitar limite de quota...
 🧠 Resultado bruto da IA:
 {'status': 'ok', 'resposta': '- [OK] Nome do fornecedor: Presente como "BioReciclagem Minas"\n- [OK] CNPJ do fornecedor: Presente como "00.111.222/0001-33"\n- [OK] Número da Licença de Operação: Presente como "001004/2025"\n- [OK] Validade da Licença de Operação: Presente como "20/12/2026"\n- [OK] Nome do órgão emissor da licença: Presente como "Prefeitura de Sabará"\n- [OK] Tipo ou nome do resíduo analisado: Presente como "Rejeito de britagem de concreto"\n- [OK] Nome do laboratório responsável pelo laudo: Presente como "TecnoAmb Análises Químicas"\n- [OK] Data do laudo: Presente como "14/03/2025"\n- [OK] Assinatura ou identificação do responsável técnico: Presente como "Dr. Fulano de Tal - CREA 123456/D"\n- [OK] Número ou código do certificado do laboratório: Presente como "CERT-3004"\n- [OK] Validade do certificado do laboratório: Presente como "31/12/2025"\n\n'}
 
-✅ Resultado salvo em: smart_documentos/temp/20250611_210339_acordo_verificado.pdf
-🔍 Verificando documento: smart_documentos/temp/20250611_210339_certificado.pdf
+✅ Resultado salvo em: smart_documentos/temp/20250611_221802_acordo_verificado.pdf
+🔍 Verificando documento: smart_documentos/temp/20250611_221803_certificado.pdf
 
 📝 Texto extraído do PDF:
 
@@ -1161,8 +954,8 @@ INFO: Aguardando 4 segundos para evitar limite de quota...
 🧠 Resultado bruto da IA:
 {'status': 'ok', 'resposta': '- [OK] Nome do fornecedor: Presente como "BioReciclagem Minas"\n- [OK] CNPJ do fornecedor: Presente como "00.111.222/0001-33"\n- [OK] Número da Licença de Operação: Presente como "001004/2025"\n- [OK] Validade da Licença de Operação: Presente como "20/12/2026"\n- [OK] Nome do órgão emissor da licença: Presente como "Prefeitura de Sabará"\n- [OK] Tipo ou nome do resíduo analisado: Presente como "Rejeito de britagem de concreto"\n- [OK] Nome do laboratório responsável pelo laudo: Presente como "TecnoAmb Análises Químicas"\n- [OK] Data do laudo: Presente como "14/03/2025"\n- [OK] Assinatura ou identificação do responsável técnico: Presente como "Dr. Fulano de Tal - CREA 123456/D"\n- [OK] Número ou código do certificado do laboratório: Presente como "CERT-3004"\n- [OK] Validade do certificado do laboratório: Presente como "31/12/2025"\n\n'}
 
-✅ Resultado salvo em: smart_documentos/temp/20250611_210339_certificado_verificado.pdf
-🔍 Verificando documento: smart_documentos/temp/20250611_210340_laudo.pdf
+✅ Resultado salvo em: smart_documentos/temp/20250611_221803_certificado_verificado.pdf
+🔍 Verificando documento: smart_documentos/temp/20250611_221803_laudo.pdf
 
 📝 Texto extraído do PDF:
 
@@ -1200,10 +993,10 @@ Ruído proposital para teste
 - Nota: Nem todos os dados aqui são verificados.
 INFO: Aguardando 4 segundos para evitar limite de quota...
 🧠 Resultado bruto da IA:
-{'status': 'ok', 'resposta': '- [OK] Nome do fornecedor: Presente e correto como "BioReciclagem Minas".\n- [OK] CNPJ do fornecedor: Presente e correto como "00.111.222/0001-33".\n- [OK] Número da Licença de Operação: Presente e correto como "001004/2025".\n- [OK] Validade da Licença de Operação: Presente e correto como "20/12/2026".\n- [OK] Nome do órgão emissor da licença: Presente e correto como "Prefeitura de Sabará".\n- [OK] Tipo ou nome do resíduo analisado: Presente e correto como "Rejeito de britagem de concreto".\n- [OK] Nome do laboratório responsável pelo laudo: Presente e correto como "TecnoAmb Análises Químicas".\n- [OK] Data do laudo: Presente e correto como "14/03/2025".\n- [OK] Assinatura ou identificação do responsável técnico: Presente como "Dr. Fulano de Tal - CREA 123456/D".\n- [OK] Número ou código do certificado do laboratório: Presente e correto como "CERT-3004".\n- [OK] Validade do certificado do laboratório: Presente e correto como "31/12/2025".\n\n'}
+{'status': 'ok', 'resposta': '- [OK] Nome do fornecedor: Presente e correto ("BioReciclagem Minas")\n- [OK] CNPJ do fornecedor: Presente e correto ("00.111.222/0001-33")\n- [OK] Número da Licença de Operação: Presente e correto ("001004/2025")\n- [OK] Validade da Licença de Operação: Presente e correto ("20/12/2026")\n- [OK] Nome do órgão emissor da licença: Presente e correto ("Prefeitura de Sabará")\n- [OK] Tipo ou nome do resíduo analisado: Presente e correto ("Rejeito de britagem de concreto")\n- [OK] Nome do laboratório responsável pelo laudo: Presente e correto ("TecnoAmb Análises Químicas")\n- [OK] Data do laudo: Presente e correto ("14/03/2025")\n- [OK] Assinatura ou identificação do responsável técnico: Presente ("Dr. Fulano de Tal - CREA 123456/D")\n- [OK] Número ou código do certificado do laboratório: Presente e correto ("CERT-3004")\n- [OK] Validade do certificado do laboratório: Presente e correto ("31/12/2025")\n\n'}
 
-✅ Resultado salvo em: smart_documentos/temp/20250611_210340_laudo_verificado.pdf
-🔍 Verificando documento: smart_documentos/temp/20250611_210340_licenca.pdf
+✅ Resultado salvo em: smart_documentos/temp/20250611_221803_laudo_verificado.pdf
+🔍 Verificando documento: smart_documentos/temp/20250611_221803_licenca.pdf
 
 📝 Texto extraído do PDF:
 
@@ -1241,10 +1034,10 @@ Ruído proposital para teste
 - Nota: Nem todos os dados aqui são verificados.
 INFO: Aguardando 4 segundos para evitar limite de quota...
 🧠 Resultado bruto da IA:
-{'status': 'ok', 'resposta': '- [OK] Nome do fornecedor: Presente como "BioReciclagem Minas"\n- [OK] CNPJ do fornecedor: Presente como "00.111.222/0001-33"\n- [OK] Número da Licença de Operação: Presente como "001004/2025"\n- [OK] Validade da Licença de Operação: Presente como "20/12/2026"\n- [OK] Nome do órgão emissor da licença: Presente como "Prefeitura de Sabará"\n- [OK] Tipo ou nome do resíduo analisado: Presente como "Rejeito de britagem de concreto"\n- [OK] Nome do laboratório responsável pelo laudo: Presente como "TecnoAmb Análises Químicas"\n- [OK] Data do laudo: Presente como "14/03/2025"\n- [OK] Assinatura ou identificação do responsável técnico: Presente como "Dr. Fulano de Tal - CREA 123456/D"\n- [OK] Número ou código do certificado do laboratório: Presente como "CERT-3004"\n- [OK] Validade do certificado do laboratório: Presente como "31/12/2025"\n\n'}
+{'status': 'ok', 'resposta': '- [OK] Nome do fornecedor: Presente: BioReciclagem Minas\n- [OK] CNPJ do fornecedor: Presente: 00.111.222/0001-33\n- [OK] Número da Licença de Operação: Presente: 001004/2025\n- [OK] Validade da Licença de Operação: Presente: 20/12/2026\n- [OK] Nome do órgão emissor da licença: Presente: Prefeitura de Sabará\n- [OK] Tipo ou nome do resíduo analisado: Presente: Rejeito de britagem de concreto\n- [OK] Nome do laboratório responsável pelo laudo: Presente: TecnoAmb Análises Químicas\n- [OK] Data do laudo: Presente: 14/03/2025\n- [OK] Assinatura ou identificação do responsável técnico: Presente: Dr. Fulano de Tal - CREA 123456/D\n- [OK] Número ou código do certificado do laboratório: Presente: CERT-3004\n- [OK] Validade do certificado do laboratório: Presente: 31/12/2025\n\n'}
 
-✅ Resultado salvo em: smart_documentos/temp/20250611_210340_licenca_verificado.pdf
-🔍 Verificando documento: smart_documentos/temp/20250611_210340_relatorio.pdf
+✅ Resultado salvo em: smart_documentos/temp/20250611_221803_licenca_verificado.pdf
+🔍 Verificando documento: smart_documentos/temp/20250611_221804_relatorio.pdf
 
 📝 Texto extraído do PDF:
 
@@ -1277,12 +1070,12 @@ INFO: Aguardando 4 segundos para evitar limite de quota...
 🧠 Resultado bruto da IA:
 {'status': 'ok', 'resposta': '- [OK] Nome do fornecedor: Presente e correto.\n- [OK] CNPJ do fornecedor: Presente e correto.\n- [OK] Número da Licença de Operação: Presente e correto.\n- [OK] Validade da Licença de Operação: Presente e correto.\n- [OK] Nome do órgão emissor da licença: Presente e correto.\n- [OK] Tipo ou nome do resíduo analisado: Presente e correto.\n- [OK] Nome do laboratório responsável pelo laudo: Presente e correto.\n- [OK] Data do laudo: Presente e correto.\n- [OK] Assinatura ou identificação do responsável técnico: Presente e correto.\n- [OK] Número ou código do certificado do laboratório: Presente e correto.\n- [OK] Validade do certificado do laboratório: Presente e correto.\n\n'}
 
-✅ Resultado salvo em: smart_documentos/temp/20250611_210340_relatorio_verificado.pdf
+✅ Resultado salvo em: smart_documentos/temp/20250611_221804_relatorio_verificado.pdf
 📤 Enviando resposta para smartauditor.teste@gmail.com...
 📧 E-mail enviado com sucesso!
 
 📧 Processando: smartauditor.teste@gmail.com | 5 anexo(s)
-🔍 Verificando documento: smart_documentos/temp/20250611_210341_acordo.pdf
+🔍 Verificando documento: smart_documentos/temp/20250611_221804_acordo.pdf
 
 📝 Texto extraído do PDF:
 
@@ -1322,8 +1115,8 @@ INFO: Aguardando 4 segundos para evitar limite de quota...
 🧠 Resultado bruto da IA:
 {'status': 'ok', 'resposta': '- [OK] Nome do fornecedor: Presente como "Ambiente Forte Serviços"\n- [OK] CNPJ do fornecedor: Presente como "55.666.777/0001-88"\n- [OK] Número da Licença de Operação: Presente como "001003/2025"\n- [OK] Validade da Licença de Operação: Presente como "20/12/2026"\n- [OK] Nome do órgão emissor da licença: Presente como "Prefeitura de Nova Lima"\n- [OK] Tipo ou nome do resíduo analisado: Presente como "Areia contaminada com óleo"\n- [OK] Nome do laboratório responsável pelo laudo: Presente como "QuimLab Soluções"\n- [OK] Data do laudo: Presente como "13/03/2025"\n- [OK] Assinatura ou identificação do responsável técnico: Presente como "Dr. Fulano de Tal - CREA 123456/D"\n- [OK] Número ou código do certificado do laboratório: Presente como "CERT-3003"\n- [OK] Validade do certificado do laboratório: Presente como "31/12/2025"\n\n'}
 
-✅ Resultado salvo em: smart_documentos/temp/20250611_210341_acordo_verificado.pdf
-🔍 Verificando documento: smart_documentos/temp/20250611_210341_certificado.pdf
+✅ Resultado salvo em: smart_documentos/temp/20250611_221804_acordo_verificado.pdf
+🔍 Verificando documento: smart_documentos/temp/20250611_221805_certificado.pdf
 
 📝 Texto extraído do PDF:
 
@@ -1363,8 +1156,8 @@ INFO: Aguardando 4 segundos para evitar limite de quota...
 🧠 Resultado bruto da IA:
 {'status': 'ok', 'resposta': '- [OK] Nome do fornecedor: Presente como "Ambiente Forte Serviços"\n- [OK] CNPJ do fornecedor: Presente como "55.666.777/0001-88"\n- [OK] Número da Licença de Operação: Presente como "001003/2025"\n- [OK] Validade da Licença de Operação: Presente como "20/12/2026"\n- [OK] Nome do órgão emissor da licença: Presente como "Prefeitura de Nova Lima"\n- [OK] Tipo ou nome do resíduo analisado: Presente como "Areia contaminada com óleo"\n- [OK] Nome do laboratório responsável pelo laudo: Presente como "QuimLab Soluções"\n- [OK] Data do laudo: Presente como "13/03/2025"\n- [OK] Assinatura ou identificação do responsável técnico: Presente como "Dr. Fulano de Tal - CREA 123456/D"\n- [OK] Número ou código do certificado do laboratório: Presente como "CERT-3003"\n- [OK] Validade do certificado do laboratório: Presente como "31/12/2025"\n\n'}
 
-✅ Resultado salvo em: smart_documentos/temp/20250611_210341_certificado_verificado.pdf
-🔍 Verificando documento: smart_documentos/temp/20250611_210342_laudo.pdf
+✅ Resultado salvo em: smart_documentos/temp/20250611_221805_certificado_verificado.pdf
+🔍 Verificando documento: smart_documentos/temp/20250611_221805_laudo.pdf
 
 📝 Texto extraído do PDF:
 
@@ -1402,10 +1195,10 @@ Ruído proposital para teste
 - Nota: Nem todos os dados aqui são verificados.
 INFO: Aguardando 4 segundos para evitar limite de quota...
 🧠 Resultado bruto da IA:
-{'status': 'ok', 'resposta': '- [OK] Nome do fornecedor: Presente no documento como "Ambiente Forte Serviços".\n- [OK] CNPJ do fornecedor: Presente no documento como "55.666.777/0001-88".\n- [OK] Número da Licença de Operação: Presente no documento como "001003/2025".\n- [OK] Validade da Licença de Operação: Presente no documento como "20/12/2026".\n- [OK] Nome do órgão emissor da licença: Presente no documento como "Prefeitura de Nova Lima".\n- [OK] Tipo ou nome do resíduo analisado: Presente no documento como "Areia contaminada com óleo".\n- [OK] Nome do laboratório responsável pelo laudo: Presente no documento como "QuimLab Soluções".\n- [OK] Data do laudo: Presente no documento como "13/03/2025".\n- [OK] Assinatura ou identificação do responsável técnico: Presente no documento como "Dr. Fulano de Tal - CREA 123456/D".\n- [OK] Número ou código do certificado do laboratório: Presente no documento como "CERT-3003".\n- [OK] Validade do certificado do laboratório: Presente no documento como "31/12/2025".\n\n'}
+{'status': 'ok', 'resposta': '- [OK] Nome do fornecedor: Presente como "Ambiente Forte Serviços"\n- [OK] CNPJ do fornecedor: Presente como "55.666.777/0001-88"\n- [OK] Número da Licença de Operação: Presente como "001003/2025"\n- [OK] Validade da Licença de Operação: Presente como "20/12/2026"\n- [OK] Nome do órgão emissor da licença: Presente como "Prefeitura de Nova Lima"\n- [OK] Tipo ou nome do resíduo analisado: Presente como "Areia contaminada com óleo"\n- [OK] Nome do laboratório responsável pelo laudo: Presente como "QuimLab Soluções"\n- [OK] Data do laudo: Presente como "13/03/2025"\n- [OK] Assinatura ou identificação do responsável técnico: Presente como "Dr. Fulano de Tal - CREA 123456/D"\n- [OK] Número ou código do certificado do laboratório: Presente como "CERT-3003"\n- [OK] Validade do certificado do laboratório: Presente como "31/12/2025"\n\n'}
 
-✅ Resultado salvo em: smart_documentos/temp/20250611_210342_laudo_verificado.pdf
-🔍 Verificando documento: smart_documentos/temp/20250611_210342_licenca.pdf
+✅ Resultado salvo em: smart_documentos/temp/20250611_221805_laudo_verificado.pdf
+🔍 Verificando documento: smart_documentos/temp/20250611_221805_licenca.pdf
 
 📝 Texto extraído do PDF:
 
@@ -1445,8 +1238,8 @@ INFO: Aguardando 4 segundos para evitar limite de quota...
 🧠 Resultado bruto da IA:
 {'status': 'ok', 'resposta': '- [OK] Nome do fornecedor: Presente como "Ambiente Forte Serviços"\n- [OK] CNPJ do fornecedor: Presente como "55.666.777/0001-88"\n- [OK] Número da Licença de Operação: Presente como "001003/2025"\n- [OK] Validade da Licença de Operação: Presente como "20/12/2026"\n- [OK] Nome do órgão emissor da licença: Presente como "Prefeitura de Nova Lima"\n- [OK] Tipo ou nome do resíduo analisado: Presente como "Areia contaminada com óleo"\n- [OK] Nome do laboratório responsável pelo laudo: Presente como "QuimLab Soluções"\n- [OK] Data do laudo: Presente como "13/03/2025"\n- [OK] Assinatura ou identificação do responsável técnico: Presente como "Dr. Fulano de Tal - CREA 123456/D"\n- [OK] Número ou código do certificado do laboratório: Presente como "CERT-3003"\n- [OK] Validade do certificado do laboratório: Presente como "31/12/2025"\n\n'}
 
-✅ Resultado salvo em: smart_documentos/temp/20250611_210342_licenca_verificado.pdf
-🔍 Verificando documento: smart_documentos/temp/20250611_210342_relatorio.pdf
+✅ Resultado salvo em: smart_documentos/temp/20250611_221805_licenca_verificado.pdf
+🔍 Verificando documento: smart_documentos/temp/20250611_221806_relatorio.pdf
 
 📝 Texto extraído do PDF:
 
@@ -1479,12 +1272,12 @@ INFO: Aguardando 4 segundos para evitar limite de quota...
 🧠 Resultado bruto da IA:
 {'status': 'ok', 'resposta': '- [OK] Nome do fornecedor: Presente e correto.\n- [OK] CNPJ do fornecedor: Presente e correto.\n- [OK] Número da Licença de Operação: Presente e correto.\n- [OK] Validade da Licença de Operação: Presente e correto.\n- [OK] Nome do órgão emissor da licença: Presente e correto.\n- [OK] Tipo ou nome do resíduo analisado: Presente e correto.\n- [OK] Nome do laboratório responsável pelo laudo: Presente e correto.\n- [OK] Data do laudo: Presente e correto.\n- [OK] Assinatura ou identificação do responsável técnico: Presente e correto.\n- [OK] Número ou código do certificado do laboratório: Presente e correto.\n- [OK] Validade do certificado do laboratório: Presente e correto.\n\n'}
 
-✅ Resultado salvo em: smart_documentos/temp/20250611_210342_relatorio_verificado.pdf
+✅ Resultado salvo em: smart_documentos/temp/20250611_221806_relatorio_verificado.pdf
 📤 Enviando resposta para smartauditor.teste@gmail.com...
 📧 E-mail enviado com sucesso!
 
 📧 Processando: smartauditor.teste@gmail.com | 5 anexo(s)
-🔍 Verificando documento: smart_documentos/temp/20250611_210344_acordo.pdf
+🔍 Verificando documento: smart_documentos/temp/20250611_221806_acordo.pdf
 
 📝 Texto extraído do PDF:
 
@@ -1522,10 +1315,10 @@ Ruído proposital para teste
 - Nota: Nem todos os dados aqui são verificados.
 INFO: Aguardando 4 segundos para evitar limite de quota...
 🧠 Resultado bruto da IA:
-{'status': 'ok', 'resposta': '- [OK] Nome do fornecedor: Presente no documento como "ReciclaMais Brasil".\n- [OK] CNPJ do fornecedor: Presente no documento como "11.222.333/0001-44".\n- [OK] Número da Licença de Operação: Presente no documento como "001002/2025".\n- [OK] Validade da Licença de Operação: Presente no documento como "20/12/2026".\n- [OK] Nome do órgão emissor da licença: Presente no documento como "Prefeitura de Betim".\n- [OK] Tipo ou nome do resíduo analisado: Presente no documento como "Lodo de estação de tratamento".\n- [OK] Nome do laboratório responsável pelo laudo: Presente no documento como "GeoTec Ambiental".\n- [OK] Data do laudo: Presente no documento como "12/03/2025".\n- [OK] Assinatura ou identificação do responsável técnico: Presente no documento como "Dr. Fulano de Tal - CREA 123456/D".\n- [OK] Número ou código do certificado do laboratório: Presente no documento como "CERT-3002".\n- [OK] Validade do certificado do laboratório: Presente no documento como "31/12/2025".\n\n'}
+{'status': 'ok', 'resposta': '- [OK] Nome do fornecedor: Presente como "ReciclaMais Brasil"\n- [OK] CNPJ do fornecedor: Presente como "11.222.333/0001-44"\n- [OK] Número da Licença de Operação: Presente como "001002/2025"\n- [OK] Validade da Licença de Operação: Presente como "20/12/2026"\n- [OK] Nome do órgão emissor da licença: Presente como "Prefeitura de Betim"\n- [OK] Tipo ou nome do resíduo analisado: Presente como "Lodo de estação de tratamento"\n- [OK] Nome do laboratório responsável pelo laudo: Presente como "GeoTec Ambiental"\n- [OK] Data do laudo: Presente como "12/03/2025"\n- [OK] Assinatura ou identificação do responsável técnico: Presente como "Dr. Fulano de Tal - CREA 123456/D"\n- [OK] Número ou código do certificado do laboratório: Presente como "CERT-3002"\n- [OK] Validade do certificado do laboratório: Presente como "31/12/2025"\n\n'}
 
-✅ Resultado salvo em: smart_documentos/temp/20250611_210344_acordo_verificado.pdf
-🔍 Verificando documento: smart_documentos/temp/20250611_210344_certificado.pdf
+✅ Resultado salvo em: smart_documentos/temp/20250611_221806_acordo_verificado.pdf
+🔍 Verificando documento: smart_documentos/temp/20250611_221807_certificado.pdf
 
 📝 Texto extraído do PDF:
 
@@ -1563,10 +1356,10 @@ Ruído proposital para teste
 - Nota: Nem todos os dados aqui são verificados.
 INFO: Aguardando 4 segundos para evitar limite de quota...
 🧠 Resultado bruto da IA:
-{'status': 'ok', 'resposta': '- [OK] Nome do fornecedor: Presente e correto.\n- [OK] CNPJ do fornecedor: Presente e correto.\n- [OK] Número da Licença de Operação: Presente e correto.\n- [OK] Validade da Licença de Operação: Presente e correto.\n- [OK] Nome do órgão emissor da licença: Presente e correto.\n- [OK] Tipo ou nome do resíduo analisado: Presente e correto.\n- [OK] Nome do laboratório responsável pelo laudo: Presente e correto.\n- [OK] Data do laudo: Presente e correto.\n- [OK] Assinatura ou identificação do responsável técnico: Presente e correto.\n- [OK] Número ou código do certificado do laboratório: Presente e correto.\n- [OK] Validade do certificado do laboratório: Presente e correto.\n\n'}
+{'status': 'ok', 'resposta': '- [OK] Nome do fornecedor: ReciclaMais Brasil\n- [OK] CNPJ do fornecedor: 11.222.333/0001-44\n- [OK] Número da Licença de Operação: 001002/2025\n- [OK] Validade da Licença de Operação: 20/12/2026\n- [OK] Nome do órgão emissor da licença: Prefeitura de Betim\n- [OK] Tipo ou nome do resíduo analisado: Lodo de estação de tratamento\n- [OK] Nome do laboratório responsável pelo laudo: GeoTec Ambiental\n- [OK] Data do laudo: 12/03/2025\n- [OK] Assinatura ou identificação do responsável técnico: Dr. Fulano de Tal - CREA 123456/D\n- [OK] Número ou código do certificado do laboratório: CERT-3002\n- [OK] Validade do certificado do laboratório: 31/12/2025\n\n'}
 
-✅ Resultado salvo em: smart_documentos/temp/20250611_210344_certificado_verificado.pdf
-🔍 Verificando documento: smart_documentos/temp/20250611_210344_laudo.pdf
+✅ Resultado salvo em: smart_documentos/temp/20250611_221807_certificado_verificado.pdf
+🔍 Verificando documento: smart_documentos/temp/20250611_221807_laudo.pdf
 
 📝 Texto extraído do PDF:
 
@@ -1606,8 +1399,8 @@ INFO: Aguardando 4 segundos para evitar limite de quota...
 🧠 Resultado bruto da IA:
 {'status': 'ok', 'resposta': '- [OK] Nome do fornecedor: Presente e correto.\n- [OK] CNPJ do fornecedor: Presente e correto.\n- [OK] Número da Licença de Operação: Presente e correto.\n- [OK] Validade da Licença de Operação: Presente e correto.\n- [OK] Nome do órgão emissor da licença: Presente e correto.\n- [OK] Tipo ou nome do resíduo analisado: Presente e correto.\n- [OK] Nome do laboratório responsável pelo laudo: Presente e correto.\n- [OK] Data do laudo: Presente e correto.\n- [OK] Assinatura ou identificação do responsável técnico: Presente e correto.\n- [OK] Número ou código do certificado do laboratório: Presente e correto.\n- [OK] Validade do certificado do laboratório: Presente e correto.\n\n'}
 
-✅ Resultado salvo em: smart_documentos/temp/20250611_210344_laudo_verificado.pdf
-🔍 Verificando documento: smart_documentos/temp/20250611_210345_licenca.pdf
+✅ Resultado salvo em: smart_documentos/temp/20250611_221807_laudo_verificado.pdf
+🔍 Verificando documento: smart_documentos/temp/20250611_221807_licenca.pdf
 
 📝 Texto extraído do PDF:
 
@@ -1647,8 +1440,8 @@ INFO: Aguardando 4 segundos para evitar limite de quota...
 🧠 Resultado bruto da IA:
 {'status': 'ok', 'resposta': '- [OK] Nome do fornecedor: Presente e correto.\n- [OK] CNPJ do fornecedor: Presente e correto.\n- [OK] Número da Licença de Operação: Presente e correto.\n- [OK] Validade da Licença de Operação: Presente e correto.\n- [OK] Nome do órgão emissor da licença: Presente e correto.\n- [OK] Tipo ou nome do resíduo analisado: Presente e correto.\n- [OK] Nome do laboratório responsável pelo laudo: Presente e correto.\n- [OK] Data do laudo: Presente e correto.\n- [OK] Assinatura ou identificação do responsável técnico: Presente e correto.\n- [OK] Número ou código do certificado do laboratório: Presente e correto.\n- [OK] Validade do certificado do laboratório: Presente e correto.\n\n'}
 
-✅ Resultado salvo em: smart_documentos/temp/20250611_210345_licenca_verificado.pdf
-🔍 Verificando documento: smart_documentos/temp/20250611_210345_relatorio.pdf
+✅ Resultado salvo em: smart_documentos/temp/20250611_221807_licenca_verificado.pdf
+🔍 Verificando documento: smart_documentos/temp/20250611_221808_relatorio.pdf
 
 📝 Texto extraído do PDF:
 
@@ -1681,12 +1474,12 @@ INFO: Aguardando 4 segundos para evitar limite de quota...
 🧠 Resultado bruto da IA:
 {'status': 'ok', 'resposta': '- [OK] Nome do fornecedor: Presente e correto.\n- [OK] CNPJ do fornecedor: Presente e correto.\n- [OK] Número da Licença de Operação: Presente e correto.\n- [OK] Validade da Licença de Operação: Presente e correto.\n- [OK] Nome do órgão emissor da licença: Presente e correto.\n- [OK] Tipo ou nome do resíduo analisado: Presente e correto.\n- [OK] Nome do laboratório responsável pelo laudo: Presente e correto.\n- [OK] Data do laudo: Presente e correto.\n- [OK] Assinatura ou identificação do responsável técnico: Presente e correto.\n- [OK] Número ou código do certificado do laboratório: Presente e correto.\n- [OK] Validade do certificado do laboratório: Presente e correto.\n\n'}
 
-✅ Resultado salvo em: smart_documentos/temp/20250611_210345_relatorio_verificado.pdf
+✅ Resultado salvo em: smart_documentos/temp/20250611_221808_relatorio_verificado.pdf
 📤 Enviando resposta para smartauditor.teste@gmail.com...
 📧 E-mail enviado com sucesso!
 
 📧 Processando: smartauditor.teste@gmail.com | 5 anexo(s)
-🔍 Verificando documento: smart_documentos/temp/20250611_210346_acordo.pdf
+🔍 Verificando documento: smart_documentos/temp/20250611_221808_acordo.pdf
 
 📝 Texto extraído do PDF:
 
@@ -1724,10 +1517,10 @@ Ruído proposital para teste
 - Nota: Nem todos os dados aqui são verificados.
 INFO: Aguardando 4 segundos para evitar limite de quota...
 🧠 Resultado bruto da IA:
-{'status': 'ok', 'resposta': '- [OK] Nome do fornecedor: Presente como "VerdeLimpo Ambiental"\n- [OK] CNPJ do fornecedor: Presente como "98.765.432/0001-12"\n- [OK] Número da Licença de Operação: Presente como "001001/2025"\n- [OK] Validade da Licença de Operação: Presente como "20/12/2026"\n- [OK] Nome do órgão emissor da licença: Presente como "Prefeitura de Contagem"\n- [OK] Tipo ou nome do resíduo analisado: Presente como "Resíduo de escória de alto-forno"\n- [OK] Nome do laboratório responsável pelo laudo: Presente como "EcoLab Serviços Técnicos"\n- [OK] Data do laudo: Presente como "11/03/2025"\n- [OK] Assinatura ou identificação do responsável técnico: Presente como "Dr. Fulano de Tal - CREA 123456/D"\n- [OK] Número ou código do certificado do laboratório: Presente como "CERT-3001"\n- [OK] Validade do certificado do laboratório: Presente como "31/12/2025"\n\n'}
+{'status': 'ok', 'resposta': '- [OK] Nome do fornecedor: VerdeLimpo Ambiental\n- [OK] CNPJ do fornecedor: 98.765.432/0001-12\n- [OK] Número da Licença de Operação: 001001/2025\n- [OK] Validade da Licença de Operação: 20/12/2026\n- [OK] Nome do órgão emissor da licença: Prefeitura de Contagem\n- [OK] Tipo ou nome do resíduo analisado: Resíduo de escória de alto-forno\n- [OK] Nome do laboratório responsável pelo laudo: EcoLab Serviços Técnicos\n- [OK] Data do laudo: 11/03/2025\n- [OK] Assinatura ou identificação do responsável técnico: Dr. Fulano de Tal - CREA 123456/D\n- [OK] Número ou código do certificado do laboratório: CERT-3001\n- [OK] Validade do certificado do laboratório: 31/12/2025\n\n'}
 
-✅ Resultado salvo em: smart_documentos/temp/20250611_210346_acordo_verificado.pdf
-🔍 Verificando documento: smart_documentos/temp/20250611_210346_certificado.pdf
+✅ Resultado salvo em: smart_documentos/temp/20250611_221808_acordo_verificado.pdf
+🔍 Verificando documento: smart_documentos/temp/20250611_221809_certificado.pdf
 
 📝 Texto extraído do PDF:
 
@@ -1765,10 +1558,10 @@ Ruído proposital para teste
 - Nota: Nem todos os dados aqui são verificados.
 INFO: Aguardando 4 segundos para evitar limite de quota...
 🧠 Resultado bruto da IA:
-{'status': 'ok', 'resposta': '- [OK] Nome do fornecedor: VerdeLimpo Ambiental\n- [OK] CNPJ do fornecedor: 98.765.432/0001-12\n- [OK] Número da Licença de Operação: 001001/2025\n- [OK] Validade da Licença de Operação: 20/12/2026\n- [OK] Nome do órgão emissor da licença: Prefeitura de Contagem\n- [OK] Tipo ou nome do resíduo analisado: Resíduo de escória de alto-forno\n- [OK] Nome do laboratório responsável pelo laudo: EcoLab Serviços Técnicos\n- [OK] Data do laudo: 11/03/2025\n- [OK] Assinatura ou identificação do responsável técnico: Dr. Fulano de Tal - CREA 123456/D\n- [OK] Número ou código do certificado do laboratório: CERT-3001\n- [OK] Validade do certificado do laboratório: 31/12/2025\n\n'}
+{'status': 'ok', 'resposta': '- [OK] Nome do fornecedor: Presente: VerdeLimpo Ambiental\n- [OK] CNPJ do fornecedor: Presente: 98.765.432/0001-12\n- [OK] Número da Licença de Operação: Presente: 001001/2025\n- [OK] Validade da Licença de Operação: Presente: 20/12/2026\n- [OK] Nome do órgão emissor da licença: Presente: Prefeitura de Contagem\n- [OK] Tipo ou nome do resíduo analisado: Presente: Resíduo de escória de alto-forno\n- [OK] Nome do laboratório responsável pelo laudo: Presente: EcoLab Serviços Técnicos\n- [OK] Data do laudo: Presente: 11/03/2025\n- [OK] Assinatura ou identificação do responsável técnico: Presente: Dr. Fulano de Tal - CREA 123456/D\n- [OK] Número ou código do certificado do laboratório: Presente: CERT-3001\n- [OK] Validade do certificado do laboratório: Presente: 31/12/2025\n\n'}
 
-✅ Resultado salvo em: smart_documentos/temp/20250611_210346_certificado_verificado.pdf
-🔍 Verificando documento: smart_documentos/temp/20250611_210346_laudo.pdf
+✅ Resultado salvo em: smart_documentos/temp/20250611_221809_certificado_verificado.pdf
+🔍 Verificando documento: smart_documentos/temp/20250611_221809_laudo.pdf
 
 📝 Texto extraído do PDF:
 
@@ -1808,8 +1601,8 @@ INFO: Aguardando 4 segundos para evitar limite de quota...
 🧠 Resultado bruto da IA:
 {'status': 'ok', 'resposta': '- [OK] Nome do fornecedor: Presente como "VerdeLimpo Ambiental"\n- [OK] CNPJ do fornecedor: Presente como "98.765.432/0001-12"\n- [OK] Número da Licença de Operação: Presente como "001001/2025"\n- [OK] Validade da Licença de Operação: Presente como "20/12/2026"\n- [OK] Nome do órgão emissor da licença: Presente como "Prefeitura de Contagem"\n- [OK] Tipo ou nome do resíduo analisado: Presente como "Resíduo de escória de alto-forno"\n- [OK] Nome do laboratório responsável pelo laudo: Presente como "EcoLab Serviços Técnicos"\n- [OK] Data do laudo: Presente como "11/03/2025"\n- [OK] Assinatura ou identificação do responsável técnico: Presente como "Dr. Fulano de Tal - CREA 123456/D"\n- [OK] Número ou código do certificado do laboratório: Presente como "CERT-3001"\n- [OK] Validade do certificado do laboratório: Presente como "31/12/2025"\n\n'}
 
-✅ Resultado salvo em: smart_documentos/temp/20250611_210346_laudo_verificado.pdf
-🔍 Verificando documento: smart_documentos/temp/20250611_210347_licenca.pdf
+✅ Resultado salvo em: smart_documentos/temp/20250611_221809_laudo_verificado.pdf
+🔍 Verificando documento: smart_documentos/temp/20250611_221809_licenca.pdf
 
 📝 Texto extraído do PDF:
 
@@ -1847,10 +1640,10 @@ Ruído proposital para teste
 - Nota: Nem todos os dados aqui são verificados.
 INFO: Aguardando 4 segundos para evitar limite de quota...
 🧠 Resultado bruto da IA:
-{'status': 'ok', 'resposta': '- [OK] Nome do fornecedor: VerdeLimpo Ambiental\n- [OK] CNPJ do fornecedor: 98.765.432/0001-12\n- [OK] Número da Licença de Operação: 001001/2025\n- [OK] Validade da Licença de Operação: 20/12/2026\n- [OK] Nome do órgão emissor da licença: Prefeitura de Contagem\n- [OK] Tipo ou nome do resíduo analisado: Resíduo de escória de alto-forno\n- [OK] Nome do laboratório responsável pelo laudo: EcoLab Serviços Técnicos\n- [OK] Data do laudo: 11/03/2025\n- [OK] Assinatura ou identificação do responsável técnico: Dr. Fulano de Tal - CREA 123456/D\n- [OK] Número ou código do certificado do laboratório: CERT-3001\n- [OK] Validade do certificado do laboratório: 31/12/2025\n\n'}
+{'status': 'ok', 'resposta': '- [OK] Nome do fornecedor: Presente como "VerdeLimpo Ambiental"\n- [OK] CNPJ do fornecedor: Presente como "98.765.432/0001-12"\n- [OK] Número da Licença de Operação: Presente como "001001/2025"\n- [OK] Validade da Licença de Operação: Presente como "20/12/2026"\n- [OK] Nome do órgão emissor da licença: Presente como "Prefeitura de Contagem"\n- [OK] Tipo ou nome do resíduo analisado: Presente como "Resíduo de escória de alto-forno"\n- [OK] Nome do laboratório responsável pelo laudo: Presente como "EcoLab Serviços Técnicos"\n- [OK] Data do laudo: Presente como "11/03/2025"\n- [OK] Assinatura ou identificação do responsável técnico: Presente como "Dr. Fulano de Tal - CREA 123456/D"\n- [OK] Número ou código do certificado do laboratório: Presente como "CERT-3001"\n- [OK] Validade do certificado do laboratório: Presente como "31/12/2025"\n\n'}
 
-✅ Resultado salvo em: smart_documentos/temp/20250611_210347_licenca_verificado.pdf
-🔍 Verificando documento: smart_documentos/temp/20250611_210347_relatorio.pdf
+✅ Resultado salvo em: smart_documentos/temp/20250611_221809_licenca_verificado.pdf
+🔍 Verificando documento: smart_documentos/temp/20250611_221810_relatorio.pdf
 
 📝 Texto extraído do PDF:
 
@@ -1883,12 +1676,12 @@ INFO: Aguardando 4 segundos para evitar limite de quota...
 🧠 Resultado bruto da IA:
 {'status': 'ok', 'resposta': '- [OK] Nome do fornecedor: Presente e correto.\n- [OK] CNPJ do fornecedor: Presente e correto.\n- [OK] Número da Licença de Operação: Presente e correto.\n- [OK] Validade da Licença de Operação: Presente e correto.\n- [OK] Nome do órgão emissor da licença: Presente e correto.\n- [OK] Tipo ou nome do resíduo analisado: Presente e correto.\n- [OK] Nome do laboratório responsável pelo laudo: Presente e correto.\n- [OK] Data do laudo: Presente e correto.\n- [OK] Assinatura ou identificação do responsável técnico: Presente e correto.\n- [OK] Número ou código do certificado do laboratório: Presente e correto.\n- [OK] Validade do certificado do laboratório: Presente e correto.\n\n'}
 
-✅ Resultado salvo em: smart_documentos/temp/20250611_210347_relatorio_verificado.pdf
+✅ Resultado salvo em: smart_documentos/temp/20250611_221810_relatorio_verificado.pdf
 📤 Enviando resposta para smartauditor.teste@gmail.com...
 📧 E-mail enviado com sucesso!
 
 📧 Processando: smartauditor.teste@gmail.com | 5 anexo(s)
-🔍 Verificando documento: smart_documentos/temp/20250611_210348_acordo.pdf
+🔍 Verificando documento: smart_documentos/temp/20250611_221810_acordo.pdf
 
 📝 Texto extraído do PDF:
 
@@ -1926,10 +1719,10 @@ Ruído proposital para teste
 - Nota: Nem todos os dados aqui são verificados.
 INFO: Aguardando 4 segundos para evitar limite de quota...
 🧠 Resultado bruto da IA:
-{'status': 'ok', 'resposta': '- [OK] Nome do fornecedor: Presente como "EcoResíduos Ltda."\n- [OK] CNPJ do fornecedor: Presente como "12.345.678/0001-90"\n- [OK] Número da Licença de Operação: Presente como "001000/2025"\n- [OK] Validade da Licença de Operação: Presente como "20/12/2026"\n- [OK] Nome do órgão emissor da licença: Presente como "Prefeitura de Belo Horizonte"\n- [OK] Tipo ou nome do resíduo analisado: Presente como "Cinza industrial classe II"\n- [OK] Nome do laboratório responsável pelo laudo: Presente como "LabAmbiente Análises"\n- [OK] Data do laudo: Presente como "10/03/2025"\n- [OK] Assinatura ou identificação do responsável técnico: Presente como "Dr. Fulano de Tal - CREA 123456/D"\n- [OK] Número ou código do certificado do laboratório: Presente como "CERT-3000"\n- [OK] Validade do certificado do laboratório: Presente como "31/12/2025"\n\n'}
+{'status': 'ok', 'resposta': '- [OK] Nome do fornecedor: Presente e correto.\n- [OK] CNPJ do fornecedor: Presente e correto.\n- [OK] Número da Licença de Operação: Presente e correto.\n- [OK] Validade da Licença de Operação: Presente e correto.\n- [OK] Nome do órgão emissor da licença: Presente e correto.\n- [OK] Tipo ou nome do resíduo analisado: Presente e correto.\n- [OK] Nome do laboratório responsável pelo laudo: Presente e correto.\n- [OK] Data do laudo: Presente e correto.\n- [OK] Assinatura ou identificação do responsável técnico: Presente e correto.\n- [OK] Número ou código do certificado do laboratório: Presente e correto.\n- [OK] Validade do certificado do laboratório: Presente e correto.\n\n'}
 
-✅ Resultado salvo em: smart_documentos/temp/20250611_210348_acordo_verificado.pdf
-🔍 Verificando documento: smart_documentos/temp/20250611_210348_certificado.pdf
+✅ Resultado salvo em: smart_documentos/temp/20250611_221810_acordo_verificado.pdf
+🔍 Verificando documento: smart_documentos/temp/20250611_221811_certificado.pdf
 
 📝 Texto extraído do PDF:
 
@@ -1969,8 +1762,8 @@ INFO: Aguardando 4 segundos para evitar limite de quota...
 🧠 Resultado bruto da IA:
 {'status': 'ok', 'resposta': '- [OK] Nome do fornecedor: Presente como "EcoResíduos Ltda."\n- [OK] CNPJ do fornecedor: Presente como "12.345.678/0001-90"\n- [OK] Número da Licença de Operação: Presente como "001000/2025"\n- [OK] Validade da Licença de Operação: Presente como "20/12/2026"\n- [OK] Nome do órgão emissor da licença: Presente como "Prefeitura de Belo Horizonte"\n- [OK] Tipo ou nome do resíduo analisado: Presente como "Cinza industrial classe II"\n- [OK] Nome do laboratório responsável pelo laudo: Presente como "LabAmbiente Análises"\n- [OK] Data do laudo: Presente como "10/03/2025"\n- [OK] Assinatura ou identificação do responsável técnico: Presente como "Dr. Fulano de Tal - CREA 123456/D"\n- [OK] Número ou código do certificado do laboratório: Presente como "CERT-3000"\n- [OK] Validade do certificado do laboratório: Presente como "31/12/2025"\n\n'}
 
-✅ Resultado salvo em: smart_documentos/temp/20250611_210348_certificado_verificado.pdf
-🔍 Verificando documento: smart_documentos/temp/20250611_210348_laudo.pdf
+✅ Resultado salvo em: smart_documentos/temp/20250611_221811_certificado_verificado.pdf
+🔍 Verificando documento: smart_documentos/temp/20250611_221811_laudo.pdf
 
 📝 Texto extraído do PDF:
 
@@ -2008,10 +1801,10 @@ Ruído proposital para teste
 - Nota: Nem todos os dados aqui são verificados.
 INFO: Aguardando 4 segundos para evitar limite de quota...
 🧠 Resultado bruto da IA:
-{'status': 'ok', 'resposta': '- [OK] Nome do fornecedor: Presente e correto.\n- [OK] CNPJ do fornecedor: Presente e correto.\n- [OK] Número da Licença de Operação: Presente e correto.\n- [OK] Validade da Licença de Operação: Presente e correto.\n- [OK] Nome do órgão emissor da licença: Presente e correto.\n- [OK] Tipo ou nome do resíduo analisado: Presente e correto.\n- [OK] Nome do laboratório responsável pelo laudo: Presente e correto.\n- [OK] Data do laudo: Presente e correto.\n- [OK] Assinatura ou identificação do responsável técnico: Presente e correto.\n- [OK] Número ou código do certificado do laboratório: Presente e correto.\n- [OK] Validade do certificado do laboratório: Presente e correto.\n\n'}
+{'status': 'ok', 'resposta': '- [OK] Nome do fornecedor: Presente como "EcoResíduos Ltda."\n- [OK] CNPJ do fornecedor: Presente como "12.345.678/0001-90"\n- [OK] Número da Licença de Operação: Presente como "001000/2025"\n- [OK] Validade da Licença de Operação: Presente como "20/12/2026"\n- [OK] Nome do órgão emissor da licença: Presente como "Prefeitura de Belo Horizonte"\n- [OK] Tipo ou nome do resíduo analisado: Presente como "Cinza industrial classe II"\n- [OK] Nome do laboratório responsável pelo laudo: Presente como "LabAmbiente Análises"\n- [OK] Data do laudo: Presente como "10/03/2025"\n- [OK] Assinatura ou identificação do responsável técnico: Presente como "Dr. Fulano de Tal - CREA 123456/D"\n- [OK] Número ou código do certificado do laboratório: Presente como "CERT-3000"\n- [OK] Validade do certificado do laboratório: Presente como "31/12/2025"\n\n'}
 
-✅ Resultado salvo em: smart_documentos/temp/20250611_210348_laudo_verificado.pdf
-🔍 Verificando documento: smart_documentos/temp/20250611_210349_licenca.pdf
+✅ Resultado salvo em: smart_documentos/temp/20250611_221811_laudo_verificado.pdf
+🔍 Verificando documento: smart_documentos/temp/20250611_221811_licenca.pdf
 
 📝 Texto extraído do PDF:
 
@@ -2049,10 +1842,10 @@ Ruído proposital para teste
 - Nota: Nem todos os dados aqui são verificados.
 INFO: Aguardando 4 segundos para evitar limite de quota...
 🧠 Resultado bruto da IA:
-{'status': 'ok', 'resposta': '- [OK] Nome do fornecedor: Presente como "EcoResíduos Ltda."\n- [OK] CNPJ do fornecedor: Presente como "12.345.678/0001-90"\n- [OK] Número da Licença de Operação: Presente como "001000/2025"\n- [OK] Validade da Licença de Operação: Presente como "20/12/2026"\n- [OK] Nome do órgão emissor da licença: Presente como "Prefeitura de Belo Horizonte"\n- [OK] Tipo ou nome do resíduo analisado: Presente como "Cinza industrial classe II"\n- [OK] Nome do laboratório responsável pelo laudo: Presente como "LabAmbiente Análises"\n- [OK] Data do laudo: Presente como "10/03/2025"\n- [OK] Assinatura ou identificação do responsável técnico: Presente como "Dr. Fulano de Tal - CREA 123456/D"\n- [OK] Número ou código do certificado do laboratório: Presente como "CERT-3000"\n- [OK] Validade do certificado do laboratório: Presente como "31/12/2025"\n\n'}
+{'status': 'ok', 'resposta': '- [OK] Nome do fornecedor: Presente e correto.\n- [OK] CNPJ do fornecedor: Presente e correto.\n- [OK] Número da Licença de Operação: Presente e correto.\n- [OK] Validade da Licença de Operação: Presente e correto.\n- [OK] Nome do órgão emissor da licença: Presente e correto.\n- [OK] Tipo ou nome do resíduo analisado: Presente e correto.\n- [OK] Nome do laboratório responsável pelo laudo: Presente e correto.\n- [OK] Data do laudo: Presente e correto.\n- [OK] Assinatura ou identificação do responsável técnico: Presente e correto.\n- [OK] Número ou código do certificado do laboratório: Presente e correto.\n- [OK] Validade do certificado do laboratório: Presente e correto.\n\n'}
 
-✅ Resultado salvo em: smart_documentos/temp/20250611_210349_licenca_verificado.pdf
-🔍 Verificando documento: smart_documentos/temp/20250611_210349_relatorio.pdf
+✅ Resultado salvo em: smart_documentos/temp/20250611_221811_licenca_verificado.pdf
+🔍 Verificando documento: smart_documentos/temp/20250611_221812_relatorio.pdf
 
 📝 Texto extraído do PDF:
 
@@ -2085,54 +1878,54 @@ INFO: Aguardando 4 segundos para evitar limite de quota...
 🧠 Resultado bruto da IA:
 {'status': 'ok', 'resposta': '- [OK] Nome do fornecedor: Presente e correto.\n- [OK] CNPJ do fornecedor: Presente e correto.\n- [OK] Número da Licença de Operação: Presente e correto.\n- [OK] Validade da Licença de Operação: Presente e correto.\n- [OK] Nome do órgão emissor da licença: Presente e correto.\n- [OK] Tipo ou nome do resíduo analisado: Presente e correto.\n- [OK] Nome do laboratório responsável pelo laudo: Presente e correto.\n- [OK] Data do laudo: Presente e correto.\n- [OK] Assinatura ou identificação do responsável técnico: Presente e correto.\n- [OK] Número ou código do certificado do laboratório: Presente e correto.\n- [OK] Validade do certificado do laboratório: Presente e correto.\n\n'}
 
-✅ Resultado salvo em: smart_documentos/temp/20250611_210349_relatorio_verificado.pdf
+✅ Resultado salvo em: smart_documentos/temp/20250611_221812_relatorio_verificado.pdf
 📤 Enviando resposta para smartauditor.teste@gmail.com...
 📧 E-mail enviado com sucesso!
 
 📧 Processando: smartauditor.teste@gmail.com | 1 anexo(s)
-🔍 Verificando documento: smart_documentos/temp/20250611_210350_documento_conjunto_3__faltando_laudo_20250526_234131.pdf
+🔍 Verificando documento: smart_documentos/temp/20250611_221812_documento_conjunto_3__faltando_laudo_20250526_234131.pdf
 
 📝 Texto extraído do PDF:
 
 Este é um documento PDF de teste para o Conjunto 3 - Faltando Laudo
 INFO: Aguardando 4 segundos para evitar limite de quota...
 🧠 Resultado bruto da IA:
-{'status': 'ok', 'resposta': '- [AUSENTE] Nome do fornecedor: Não encontrado no texto.\n- [AUSENTE] CNPJ do fornecedor: Não encontrado no texto.\n- [AUSENTE] Número da Licença de Operação: Não encontrado no texto.\n- [AUSENTE] Validade da Licença de Operação: Não encontrado no texto.\n- [AUSENTE] Nome do órgão emissor da licença: Não encontrado no texto.\n- [AUSENTE] Tipo ou nome do resíduo analisado: Não encontrado no texto.\n- [AUSENTE] Nome do laboratório responsável pelo laudo: Não encontrado no texto.\n- [AUSENTE] Data do laudo: Não encontrado no texto.\n- [AUSENTE] Assinatura ou identificação do responsável técnico: Não encontrado no texto.\n- [AUSENTE] Número ou código do certificado do laboratório: Não encontrado no texto.\n- [AUSENTE] Validade do certificado do laboratório: Não encontrado no texto.\n\n'}
+{'status': 'ok', 'resposta': '- [AUSENTE] Nome do fornecedor:  Não informado no texto fornecido.\n- [AUSENTE] CNPJ do fornecedor: Não informado no texto fornecido.\n- [AUSENTE] Número da Licença de Operação: Não informado no texto fornecido.\n- [AUSENTE] Validade da Licença de Operação: Não informado no texto fornecido.\n- [AUSENTE] Nome do órgão emissor da licença: Não informado no texto fornecido.\n- [AUSENTE] Tipo ou nome do resíduo analisado: Não informado no texto fornecido.\n- [AUSENTE] Nome do laboratório responsável pelo laudo: Não informado no texto fornecido.\n- [AUSENTE] Data do laudo: Não informado no texto fornecido.\n- [AUSENTE] Assinatura ou identificação do responsável técnico: Não informado no texto fornecido.\n- [AUSENTE] Número ou código do certificado do laboratório: Não informado no texto fornecido.\n- [AUSENTE] Validade do certificado do laboratório: Não informado no texto fornecido.\n\n'}
 
-✅ Resultado salvo em: smart_documentos/temp/20250611_210350_documento_conjunto_3__faltando_laudo_20250526_234131_verificado.pdf
+✅ Resultado salvo em: smart_documentos/temp/20250611_221812_documento_conjunto_3__faltando_laudo_20250526_234131_verificado.pdf
 📤 Enviando resposta para smartauditor.teste@gmail.com...
 📧 E-mail enviado com sucesso!
 
 📧 Processando: smartauditor.teste@gmail.com | 1 anexo(s)
-🔍 Verificando documento: smart_documentos/temp/20250611_210350_documento_conjunto_2__erro_no_cnpj_20250526_234127.pdf
+🔍 Verificando documento: smart_documentos/temp/20250611_221813_documento_conjunto_2__erro_no_cnpj_20250526_234127.pdf
 
 📝 Texto extraído do PDF:
 
 Este é um documento PDF de teste para o Conjunto 2 - Erro no CNPJ
 INFO: Aguardando 4 segundos para evitar limite de quota...
 🧠 Resultado bruto da IA:
-{'status': 'ok', 'resposta': 'Como não há conteúdo fornecido no documento PDF, exceto o título "Este é um documento PDF de teste para o Conjunto 2 - Erro no CNPJ",  todos os itens da lista de verificação serão considerados ausentes.\n\n- [AUSENTE] Nome do fornecedor:  Não encontrado no texto.\n- [AUSENTE] CNPJ do fornecedor: Não encontrado no texto.\n- [AUSENTE] Número da Licença de Operação: Não encontrado no texto.\n- [AUSENTE] Validade da Licença de Operação: Não encontrado no texto.\n- [AUSENTE] Nome do órgão emissor da licença: Não encontrado no texto.\n- [AUSENTE] Tipo ou nome do resíduo analisado: Não encontrado no texto.\n- [AUSENTE] Nome do laboratório responsável pelo laudo: Não encontrado no texto.\n- [AUSENTE] Data do laudo: Não encontrado no texto.\n- [AUSENTE] Assinatura ou identificação do responsável técnico: Não encontrado no texto.\n- [AUSENTE] Número ou código do certificado do laboratório: Não encontrado no texto.\n- [AUSENTE] Validade do certificado do laboratório: Não encontrado no texto.\n\n'}
+{'status': 'ok', 'resposta': '- [AUSENTE] Nome do fornecedor: Não encontrado no texto.\n- [AUSENTE] CNPJ do fornecedor: Não encontrado no texto.\n- [AUSENTE] Número da Licença de Operação: Não encontrado no texto.\n- [AUSENTE] Validade da Licença de Operação: Não encontrado no texto.\n- [AUSENTE] Nome do órgão emissor da licença: Não encontrado no texto.\n- [AUSENTE] Tipo ou nome do resíduo analisado: Não encontrado no texto.\n- [AUSENTE] Nome do laboratório responsável pelo laudo: Não encontrado no texto.\n- [AUSENTE] Data do laudo: Não encontrado no texto.\n- [AUSENTE] Assinatura ou identificação do responsável técnico: Não encontrado no texto.\n- [AUSENTE] Número ou código do certificado do laboratório: Não encontrado no texto.\n- [AUSENTE] Validade do certificado do laboratório: Não encontrado no texto.\n\n'}
 
-✅ Resultado salvo em: smart_documentos/temp/20250611_210350_documento_conjunto_2__erro_no_cnpj_20250526_234127_verificado.pdf
+✅ Resultado salvo em: smart_documentos/temp/20250611_221813_documento_conjunto_2__erro_no_cnpj_20250526_234127_verificado.pdf
 📤 Enviando resposta para smartauditor.teste@gmail.com...
 📧 E-mail enviado com sucesso!
 
 📧 Processando: smartauditor.teste@gmail.com | 1 anexo(s)
-🔍 Verificando documento: smart_documentos/temp/20250611_210351_documento_conjunto_1__correto_20250526_234124.pdf
+🔍 Verificando documento: smart_documentos/temp/20250611_221814_documento_conjunto_1__correto_20250526_234124.pdf
 
 📝 Texto extraído do PDF:
 
 Este é um documento PDF de teste para o Conjunto 1 - Correto
 INFO: Aguardando 4 segundos para evitar limite de quota...
 🧠 Resultado bruto da IA:
-{'status': 'ok', 'resposta': 'Como não tenho acesso ao conteúdo do PDF, não posso verificar a presença ou correção das informações.  Portanto, todos os itens serão classificados como AUSENTE.\n\n- [AUSENTE] Nome do fornecedor: Não foi possível acessar o conteúdo do PDF.\n- [AUSENTE] CNPJ do fornecedor: Não foi possível acessar o conteúdo do PDF.\n- [AUSENTE] Número da Licença de Operação: Não foi possível acessar o conteúdo do PDF.\n- [AUSENTE] Validade da Licença de Operação: Não foi possível acessar o conteúdo do PDF.\n- [AUSENTE] Nome do órgão emissor da licença: Não foi possível acessar o conteúdo do PDF.\n- [AUSENTE] Tipo ou nome do resíduo analisado: Não foi possível acessar o conteúdo do PDF.\n- [AUSENTE] Nome do laboratório responsável pelo laudo: Não foi possível acessar o conteúdo do PDF.\n- [AUSENTE] Data do laudo: Não foi possível acessar o conteúdo do PDF.\n- [AUSENTE] Assinatura ou identificação do responsável técnico: Não foi possível acessar o conteúdo do PDF.\n- [AUSENTE] Número ou código do certificado do laboratório: Não foi possível acessar o conteúdo do PDF.\n- [AUSENTE] Validade do certificado do laboratório: Não foi possível acessar o conteúdo do PDF.\n'}
+{'status': 'ok', 'resposta': 'Como não tenho acesso ao conteúdo do documento PDF "Este é um documento PDF de teste para o Conjunto 1 - Correto", não posso avaliar a presença ou correção das informações.  Para fornecer uma resposta, preciso do conteúdo do PDF.  \n\nPor favor, forneça o conteúdo do PDF para que eu possa executar a auditoria e retornar a lista de verificação preenchida.\n'}
 
-✅ Resultado salvo em: smart_documentos/temp/20250611_210351_documento_conjunto_1__correto_20250526_234124_verificado.pdf
+✅ Resultado salvo em: smart_documentos/temp/20250611_221814_documento_conjunto_1__correto_20250526_234124_verificado.pdf
 📤 Enviando resposta para smartauditor.teste@gmail.com...
 📧 E-mail enviado com sucesso!
 
 📧 Processando: smartauditor.teste@gmail.com | 1 anexo(s)
-🔍 Verificando documento: smart_documentos/temp/20250611_210352_documento_teste_20250526_232555.pdf
+🔍 Verificando documento: smart_documentos/temp/20250611_221814_documento_teste_20250526_232555.pdf
 
 📝 Texto extraído do PDF:
 
@@ -2148,30 +1941,27 @@ Certificado do laboratório: válido
 Validade do certificado: 30/11/2024
 INFO: Aguardando 4 segundos para evitar limite de quota...
 🧠 Resultado bruto da IA:
-{'status': 'ok', 'resposta': '- [OK] Nome do fornecedor: Presente e correto.\n- [OK] CNPJ do fornecedor: Presente.\n- [OK] Número da Licença de Operação: Presente.\n- [OK] Validade da Licença de Operação: Presente.\n- [OK] Nome do órgão emissor da licença: Presente.\n- [OK] Tipo ou nome do resíduo analisado: Presente.\n- [AUSENTE] Nome do laboratório responsável pelo laudo:  Não informado.\n- [AUSENTE] Data do laudo: Não informada.\n- [AUSENTE] Assinatura ou identificação do responsável técnico: Não informada.\n- [OK] Número ou código do certificado do laboratório:  Presente (embora apenas a informação de validade esteja explicitamente presente, a existência do certificado é implícita).\n- [OK] Validade do certificado do laboratório: Presente.\n\n'}
+{'status': 'ok', 'resposta': '- [OK] Nome do fornecedor: Presente e correto.\n- [OK] CNPJ do fornecedor: Presente e correto.\n- [OK] Número da Licença de Operação: Presente e correto.\n- [OK] Validade da Licença de Operação: Presente e correto.\n- [OK] Nome do órgão emissor da licença: Presente e correto.\n- [OK] Tipo ou nome do resíduo analisado: Presente e correto.\n- [AUSENTE] Nome do laboratório responsável pelo laudo:  Não informado no documento.\n- [AUSENTE] Data do laudo: Não informado no documento.\n- [AUSENTE] Assinatura ou identificação do responsável técnico: Não informado no documento.\n- [OK] Número ou código do certificado do laboratório:  Presente, embora não explicitamente informado.\n- [OK] Validade do certificado do laboratório: Presente e correto.\n\n'}
 
-✅ Resultado salvo em: smart_documentos/temp/20250611_210352_documento_teste_20250526_232555_verificado.pdf
+✅ Resultado salvo em: smart_documentos/temp/20250611_221814_documento_teste_20250526_232555_verificado.pdf
 📤 Enviando resposta para smartauditor.teste@gmail.com...
 📧 E-mail enviado com sucesso!
 
 📧 Processando: smartauditor.teste@gmail.com | 1 anexo(s)
-🔍 Verificando documento: smart_documentos/temp/20250611_210352_documento_teste_20250522_235127.pdf
+🔍 Verificando documento: smart_documentos/temp/20250611_221815_documento_teste_20250522_235127.pdf
 
 📝 Texto extraído do PDF:
 
 Este é um documento de teste gerado automaticamente.
 INFO: Aguardando 4 segundos para evitar limite de quota...
 🧠 Resultado bruto da IA:
-{'status': 'ok', 'resposta': '- [AUSENTE] Nome do fornecedor:  Não encontrado no texto.\n- [AUSENTE] CNPJ do fornecedor: Não encontrado no texto.\n- [AUSENTE] Número da Licença de Operação: Não encontrado no texto.\n- [AUSENTE] Validade da Licença de Operação: Não encontrado no texto.\n- [AUSENTE] Nome do órgão emissor da licença: Não encontrado no texto.\n- [AUSENTE] Tipo ou nome do resíduo analisado: Não encontrado no texto.\n- [AUSENTE] Nome do laboratório responsável pelo laudo: Não encontrado no texto.\n- [AUSENTE] Data do laudo: Não encontrado no texto.\n- [AUSENTE] Assinatura ou identificação do responsável técnico: Não encontrado no texto.\n- [AUSENTE] Número ou código do certificado do laboratório: Não encontrado no texto.\n- [AUSENTE] Validade do certificado do laboratório: Não encontrado no texto.\n\n'}
+{'status': 'ok', 'resposta': '- [AUSENTE] Nome do fornecedor:  Não encontrado no texto.\n- [AUSENTE] CNPJ do fornecedor: Não encontrado no texto.\n- [AUSENTE] Número da Licença de Operação: Não encontrado no texto.\n- [AUSENTE] Validade da Licença de Operação: Não encontrado no texto.\n- [AUSENTE] Nome do órgão emissor da licença: Não encontrado no texto.\n- [AUSENTE] Tipo ou nome do resíduo analisado: Não encontrado no texto.\n- [AUSENTE] Nome do laboratório responsável pelo laudo: Não encontrado no texto.\n- [AUSENTE] Data do laudo: Não encontrado no texto.\n- [AUSENTE] Assinatura ou identificação do responsável técnico: Não encontrado no texto.\n- [AUSENTE] Número ou código do certificado do laboratório: Não encontrado no texto.\n- [AUSENTE] Validade do certificado do laboratório: Não encontrado no texto.\n'}
 
-✅ Resultado salvo em: smart_documentos/temp/20250611_210352_documento_teste_20250522_235127_verificado.pdf
+✅ Resultado salvo em: smart_documentos/temp/20250611_221815_documento_teste_20250522_235127_verificado.pdf
 📤 Enviando resposta para smartauditor.teste@gmail.com...
 📧 E-mail enviado com sucesso!
 
-✅ Fluxo finalizado. Total de PDFs gerados: 60
-⚠️ Falha ao salvar log de execução: registrar_log_execucao() got an unexpected keyword argument 'conteudo_markdown'
-Traceback (most recent call last):
-  File "C:\Users\Code\smart_auditor_org\smart_core\processador_fim_a_fim.py", line 108, in processar_fluxo
-    registrar_log_execucao(
-TypeError: registrar_log_execucao() got an unexpected keyword argument 'conteudo_markdown'
+✅ Fluxo finalizado. Total de PDFs gerados: 55
+📝 Relatório salvo com sucesso em: relatorios\relatorio_final_20250611_222525.html
+🗂️ Log de execução salvo com sucesso em: logs\execucao_20250611_222525.log
 PS C:\Users\Code\smart_auditor_org>
