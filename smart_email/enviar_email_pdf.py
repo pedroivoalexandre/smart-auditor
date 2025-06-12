@@ -1,49 +1,42 @@
 import os
 import smtplib
 import ssl
-from email.mime.multipart import MIMEMultipart
-from email.mime.text import MIMEText
-from email.mime.application import MIMEApplication
-from fpdf import FPDF
-from datetime import datetime
+from email.message import EmailMessage
 from dotenv import load_dotenv
 
-# ====== CARREGAR VARIÁVEIS DE AMBIENTE ======
 load_dotenv()
-smtp_servidor = "smtp.gmail.com"
-smtp_porta = 465
-usuario = os.getenv("EMAIL_ORIGEM")
-senha_app = os.getenv("EMAIL_SENHA_APP")
 
-if not usuario or not senha_app:
-    raise ValueError("❌ EMAIL_ORIGEM ou EMAIL_SENHA_APP não definidos no arquivo .env")
+def enviar_email_pdf(destinatarios: list[str], caminhos_pdfs: list[str], assunto: str, corpo: str) -> None:
+    """
+    Envia um e-mail com múltiplos arquivos PDF anexados.
 
-def gerar_pdf(corpo: str, nome_pdf: str) -> None:
-    """Gera um PDF com o conteúdo especificado."""
-    pdf = FPDF()
-    pdf.add_page()
-    pdf.set_font("Arial", size=12)
-    pdf.multi_cell(0, 10, corpo)
-    pdf.output(nome_pdf)
+    Parâmetros:
+        destinatarios (list[str]): Lista de e-mails dos destinatários.
+        caminhos_pdfs (list[str]): Lista de caminhos dos arquivos PDF a anexar.
+        assunto (str): Assunto do e-mail.
+        corpo (str): Corpo do e-mail.
+    """
 
-def enviar_email_pdf(destinatario: str, assunto: str, corpo: str, nome_pdf: str) -> None:
-    """Envia um e-mail com o corpo e anexo PDF gerado."""
-    gerar_pdf(corpo, nome_pdf)
+    email_remetente = os.getenv("EMAIL_ORIGEM")
+    senha_app = os.getenv("EMAIL_SENHA_APP")
 
-    msg = MIMEMultipart()
-    msg['From'] = usuario
-    msg['To'] = destinatario
-    msg['Subject'] = assunto
-    msg.attach(MIMEText(corpo, 'plain'))
+    if not email_remetente or not senha_app:
+        raise ValueError("❌ Variáveis de ambiente EMAIL_ORIGEM ou EMAIL_SENHA_APP não configuradas.")
 
-    with open(nome_pdf, 'rb') as f:
-        anexo = MIMEApplication(f.read(), _subtype="pdf")
-        anexo.add_header('Content-Disposition', 'attachment', filename=os.path.basename(nome_pdf))
-        msg.attach(anexo)
+    msg = EmailMessage()
+    msg["Subject"] = assunto
+    msg["From"] = email_remetente
+    msg["To"] = ", ".join(destinatarios)
+    msg.set_content(corpo)
+
+    for caminho_pdf in caminhos_pdfs:
+        with open(caminho_pdf, "rb") as f:
+            dados_pdf = f.read()
+            nome_pdf = os.path.basename(caminho_pdf)
+            msg.add_attachment(dados_pdf, maintype="application", subtype="pdf", filename=nome_pdf)
 
     contexto = ssl.create_default_context()
-    with smtplib.SMTP_SSL(smtp_servidor, smtp_porta, context=contexto) as servidor:
-        servidor.login(usuario, senha_app)
+    with smtplib.SMTP_SSL("smtp.gmail.com", 465, context=contexto) as servidor:
+        servidor.login(email_remetente, senha_app)
         servidor.send_message(msg)
-
-    print(f"📧 E-mail enviado para {destinatario} com anexo {nome_pdf}")
+        print("📧 E-mail enviado com sucesso!")

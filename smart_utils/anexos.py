@@ -1,42 +1,38 @@
+# smart_utils/anexos.py
 import os
-import base64
 from datetime import datetime
 from pathlib import Path
 
-def salvar_anexos_pdf(parts, pasta_saida="smart_documentos/temp/"):
+# Caminho padrão para salvar os arquivos
+PASTA_SAIDA = "smart_documentos/temp/"
+
+def salvar_anexos_pdf(nome_original: str, conteudo_bytes: bytes) -> str:
     """
-    Salva arquivos PDF a partir das partes de um e-mail, que podem conter anexos codificados em base64.
+    Salva o conteúdo de um único anexo PDF em disco, garantindo um nome de arquivo único.
 
     Args:
-        parts (list): Lista de partes do e-mail, onde cada parte pode conter um anexo.
-        pasta_saida (str): Caminho onde os PDFs devem ser salvos.
+        nome_original (str): O nome original do arquivo anexo.
+        conteudo_bytes (bytes): O conteúdo do arquivo em bytes.
 
     Returns:
-        list: Lista com os caminhos completos dos arquivos PDF salvos.
+        str: O caminho completo onde o arquivo foi salvo, ou None se ocorrer um erro.
     """
-    Path(pasta_saida).mkdir(parents=True, exist_ok=True)
-    arquivos_salvos = []
+    try:
+        # Garante que o diretório de saída exista
+        Path(PASTA_SAIDA).mkdir(parents=True, exist_ok=True)
 
-    for idx, part in enumerate(parts):
-        filename = part.get("filename")
-        body = part.get("body", {})
-        data = body.get("data")
+        # Cria um nome de arquivo seguro com timestamp para evitar sobrescrever arquivos
+        timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+        nome_seguro = f"{timestamp}_{nome_original}"
+        caminho_completo = os.path.join(PASTA_SAIDA, nome_seguro)
 
-        # Verifica se é um arquivo PDF
-        if filename and filename.lower().endswith(".pdf") and data:
-            try:
-                conteudo = base64.urlsafe_b64decode(data)
-                timestamp = datetime.now().strftime("%Y%m%d%H%M%S")
-                nome_seguro = f"{timestamp}_{idx}_{filename}"
-                caminho_completo = os.path.join(pasta_saida, nome_seguro)
+        # Salva o arquivo em modo de escrita binária ("wb")
+        with open(caminho_completo, "wb") as f:
+            f.write(conteudo_bytes)
+        
+        print(f"📎 Anexo salvo com sucesso em: {caminho_completo}")
+        return caminho_completo
 
-                with open(caminho_completo, "wb") as f:
-                    f.write(conteudo)
-
-                arquivos_salvos.append(caminho_completo)
-                print(f"📎 PDF salvo: {caminho_completo}")
-
-            except Exception as e:
-                print(f"⚠️ Erro ao salvar anexo {filename}: {e}")
-
-    return arquivos_salvos
+    except Exception as e:
+        print(f"⚠️ Erro crítico ao tentar salvar o anexo '{nome_original}': {e}")
+        return None

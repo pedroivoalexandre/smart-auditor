@@ -4,11 +4,14 @@ C:.
 ¦   .env
 ¦   .gitignore
 ¦   estrutura.txt
+¦   executar.py
 ¦   pytest.ini
 ¦   README.md
 ¦   requirements-doc.txt
 ¦   requirements.txt
+¦   run_all_tests.py
 ¦   smart_auditor_org.code-workspace
+¦   teste_acesso_gmail.py
 ¦   teste_verificar_memoria.py
 ¦   
 +---.pytest_cache
@@ -109,17 +112,37 @@ C:.
 ¦           lista_verificacao_10.pdf
 ¦           relatorio.pdf
 ¦           
++---logs
+¦       execucao_20250609_214644.log
+¦       execucao_20250609_220046.log
+¦       testes_20250609_205913.log
+¦       testes_20250609_205915.log
+¦       testes_20250609_210149.log
+¦       
++---relatorios
+¦       relatorio_final_20250609_220046.html
+¦       relatorio_final_20250609_220046.txt
+¦       testes_20250609_205913.html
+¦       testes_20250609_205915.html
+¦       testes_20250609_210149.html
+¦       
 +---retorno_chat
 ¦       README.md
 ¦       smart_email.md
 ¦       smart_verificacao.md
 ¦       
-+---smart-config
-¦       .env.example
-¦       credentials.json
-¦       setup_base.py
-¦       token.json
-¦       
++---smart_config
+¦   ¦   .env.example
+¦   ¦   config.py
+¦   ¦   credentials.json
+¦   ¦   setup_base.py
+¦   ¦   token.json
+¦   ¦   __init__.py
+¦   ¦   
+¦   +---__pycache__
+¦           config.cpython-312.pyc
+¦           __init__.cpython-312.pyc
+¦           
 +---smart_core
 ¦   ¦   main.py
 ¦   ¦   processador_fim_a_fim.py
@@ -137,40 +160,68 @@ C:.
 ¦   ¦   
 ¦   +---temp
 ¦           acordo.pdf
+¦           acordo_verificado.pdf
 ¦           certificado.pdf
+¦           certificado_verificado.pdf
+¦           documento_conjunto_1__correto_20250526_234124.pdf
+¦           documento_conjunto_1__correto_20250526_234124_verificado.pdf
+¦           documento_conjunto_2__erro_no_cnpj_20250526_234127.pdf
+¦           documento_conjunto_2__erro_no_cnpj_20250526_234127_verificado.pdf
+¦           documento_conjunto_3__faltando_laudo_20250526_234131.pdf
+¦           documento_conjunto_3__faltando_laudo_20250526_234131_verificado.pdf
 ¦           documento_teste_20250522_235127.pdf
+¦           documento_teste_20250522_235127_verificado.pdf
+¦           documento_teste_20250526_232555.pdf
+¦           documento_teste_20250526_232555_verificado.pdf
 ¦           laudo.pdf
+¦           laudo_verificado.pdf
 ¦           licenca.pdf
+¦           licenca_verificado.pdf
 ¦           relatorio.pdf
+¦           relatorio_verificado.pdf
 ¦           
 +---smart_email
 ¦   ¦   email_reader.py
 ¦   ¦   enviar_email_pdf.py
 ¦   ¦   enviar_email_teste.py
 ¦   ¦   README.md
+¦   ¦   XXXemail_reader.py
 ¦   ¦   __init__.py
 ¦   ¦   
 ¦   +---tests
 ¦   ¦   ¦   test_email_reader.py
 ¦   ¦   ¦   test_enviar_email_pdf.py
 ¦   ¦   ¦   test_enviar_para_fastapi.py
+¦   ¦   ¦   test_ler_emails_com_anexos.py
 ¦   ¦   ¦   __init__.py
 ¦   ¦   ¦   
 ¦   ¦   +---__pycache__
 ¦   ¦           test_email_reader.cpython-312-pytest-8.4.0.pyc
 ¦   ¦           test_enviar_email_pdf.cpython-312-pytest-8.4.0.pyc
 ¦   ¦           test_enviar_para_fastapi.cpython-312-pytest-8.4.0.pyc
+¦   ¦           test_ler_emails_com_anexos.cpython-312-pytest-8.4.0.pyc
 ¦   ¦           __init__.cpython-312.pyc
 ¦   ¦           
 ¦   +---__pycache__
 ¦           email_reader.cpython-312.pyc
 ¦           enviar_email_pdf.cpython-312.pyc
 ¦           enviar_email_teste.cpython-312.pyc
+¦           XXXemail_reader.cpython-312.pyc
 ¦           __init__.cpython-312.pyc
 ¦           
 +---smart_utils
-¦       PadrãoRetornoChatgpt.md
-¦       
+¦   ¦   anexos.py
+¦   ¦   gmail_auth.py
+¦   ¦   logger.py
+¦   ¦   PadrãoRetornoChatgpt.md
+¦   ¦   __init__.py
+¦   ¦   
+¦   +---__pycache__
+¦           anexos.cpython-312.pyc
+¦           gmail_auth.cpython-312.pyc
+¦           logger.cpython-312.pyc
+¦           __init__.cpython-312.pyc
+¦           
 +---smart_verificacao
     ¦   modelo_debug.py
     ¦   prompt_verificacao.txt
@@ -178,7 +229,9 @@ C:.
     ¦   test_model.py
     ¦   verificacao_em_lote.py
     ¦   verificador.py
+    ¦   __init__.py
     ¦   
     +---__pycache__
             verificador.cpython-312.pyc
+            __init__.cpython-312.pyc
             

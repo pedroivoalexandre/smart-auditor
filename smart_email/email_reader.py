@@ -1,164 +1,118 @@
-"""
-📬 email_reader.py
-Módulo responsável por:
-- Autenticar na API Gmail
-- Ler e-mails com ou sem filtros
-- Extrair anexos PDF e salvar localmente
-- Enviar anexos para API FastAPI (/verificar)
-- Oferecer função genérica para uso do smart_core
-"""
-
+# email_reader.py
 import os
 import base64
-import requests
-from email import message_from_bytes
-from dotenv import load_dotenv
+import traceback
 from google.auth.transport.requests import Request
 from google.oauth2.credentials import Credentials
+from google_auth_oauthlib.flow import InstalledAppFlow
 from googleapiclient.discovery import build
+from googleapiclient.errors import HttpError
 
-# ==== Carrega variáveis de ambiente do .env ====
-load_dotenv()
-CAMINHO_CREDENCIAIS = os.getenv("CAMINHO_CREDENCIAIS", "smart-config/credentials.json")
-CAMINHO_TOKEN = os.getenv("CAMINHO_TOKEN", "smart-config/token.json")
-CAMINHO_TEMP = os.getenv("CAMINHO_TEMP", "smart_documentos/temp/")
+# Importa as configurações centralizadas
+from smart_config.config import PATH_TOKEN, PATH_CREDENTIALS, SCOPES
+from smart_utils.anexos import salvar_anexos_pdf
 
-# ==== Autenticação com a API do Gmail ====
 def autenticar_gmail():
     """
-    Autentica na API do Gmail usando OAuth2 e retorna o serviço autenticado.
-    Necessário o arquivo token.json e as credenciais da conta.
+    Autentica na API do Gmail de forma robusta.
     """
-    SCOPES = ['https://www.googleapis.com/auth/gmail.readonly']
     creds = None
-
-    if os.path.exists(CAMINHO_TOKEN):
-        creds = Credentials.from_authorized_user_file(CAMINHO_TOKEN, SCOPES)
-
+    if os.path.exists(PATH_TOKEN):
+        creds = Credentials.from_authorized_user_file(PATH_TOKEN, SCOPES)
+    
     if not creds or not creds.valid:
         if creds and creds.expired and creds.refresh_token:
+            print("INFO: Credenciais expiradas, atualizando o token...")
             creds.refresh(Request())
         else:
-            raise RuntimeError("❌ Token inválido ou ausente. Refaça a autenticação.")
+            print("INFO: Token não encontrado ou inválido. Iniciando novo fluxo de autenticação...")
+            flow = InstalledAppFlow.from_client_secrets_file(PATH_CREDENTIALS, SCOPES)
+            creds = flow.run_local_server(port=0)
+        
+        with open(PATH_TOKEN, "w") as token:
+            token.write(creds.to_json())
+            print(f"INFO: Token salvo em '{PATH_TOKEN}'")
+            
+    return build("gmail", "v1", credentials=creds)
 
-    return build('gmail', 'v1', credentials=creds)
-
-# ==== Leitura com filtros específicos (usada para testes isolados) ====
-def ler_emails(service, remetente_filtro: str, assunto_filtro: str, max_emails: int = 5):
-    """
-    Lê os e-mails mais recentes do remetente com assunto especificado.
-    Ideal para testes manuais com filtros bem definidos.
-    """
-    query = f'from:{remetente_filtro} subject:{assunto_filtro}'
-    response = service.users().messages().list(userId='me', q=query, maxResults=max_emails).execute()
-    mensagens = response.get('messages', [])
-
-    emails = []
-
-    for msg in mensagens:
-        dados_msg = service.users().messages().get(userId='me', id=msg['id']).execute()
-        payload = dados_msg['payload']
-        partes = payload.get('parts', [])
-        anexos = []
-
-        # Salva anexos PDF encontrados
-        for parte in partes:
-            filename = parte.get("filename")
-            body = parte.get("body", {})
-            if filename and 'data' in body:
-                dados = base64.urlsafe_b64decode(body['data'])
-                caminho = os.path.join(CAMINHO_TEMP, filename)
-                with open(caminho, 'wb') as f:
-                    f.write(dados)
-                anexos.append(caminho)
-
-        # Extrai texto do corpo do e-mail
-        corpo_email = ""
-        if 'parts' in payload:
-            for parte in payload['parts']:
-                if parte['mimeType'] == 'text/plain':
-                    corpo_email = base64.urlsafe_b64decode(parte['body']['data']).decode('utf-8')
-                    break
-
-        emails.append({"assunto": assunto_filtro, "corpo": corpo_email, "anexos": anexos})
-
-    return emails
-
-# ==== Nova função: leitura genérica para smart_core ====
 def ler_emails_com_anexos():
     """
-    Versão compatível com smart_core:
-    - Lê todos os e-mails da INBOX que contenham anexos PDF
-    - Salva os arquivos em CAMINHO_TEMP
-    - Retorna lista de dicionários com remetente, assunto, texto e anexos
+    Lê os e-mails, aplicando o filtro de assunto, e salva seus anexos.
     """
-    print("📨 Lendo e-mails com anexos PDF...")
-    service = autenticar_gmail()
+    print("📨 Iniciando leitura de e-mails (filtro: assunto contém 'verificação')...")
+    
+    try:
+        service = autenticar_gmail()
+        print("✅ Serviço Gmail autenticado com sucesso.")
+    except Exception as e:
+        print(f"❌ Erro fatal durante a autenticação: {e}")
+        traceback.print_exc()
+        return []
 
-    resultado = service.users().messages().list(
-        userId="me", labelIds=["INBOX"], q="has:attachment filename:pdf"
-    ).execute()
-    mensagens = resultado.get("messages", [])
+    try:
+        query = 'subject:verificação has:attachment filename:pdf'
+        result = service.users().messages().list(userId='me', q=query, maxResults=20).execute()
+        mensagens = result.get("messages", [])
+    except HttpError as e:
+        print(f"❌ Erro ao buscar mensagens na API do Gmail: {e}")
+        return []
 
-    saida = []
+    if not mensagens:
+        print("⚠️ Nenhum e-mail correspondente ao filtro foi encontrado.")
+        return []
 
-    for msg in mensagens:
+    print(f"📬 Total de e-mails encontrados: {len(mensagens)}")
+    
+    emails_processados = []
+
+    for mensagem in mensagens:
         try:
-            dados_msg = service.users().messages().get(userId='me', id=msg['id']).execute()
-            payload = dados_msg['payload']
-            headers = payload.get('headers', [])
+            msg = service.users().messages().get(userId="me", id=mensagem["id"]).execute()
+            payload = msg.get("payload", {})
+            headers = payload.get("headers", [])
 
-            # Extrai remetente e assunto
-            remetente = next((h["value"] for h in headers if h["name"] == "From"), "[desconhecido]")
+            remetente = next((h["value"] for h in headers if h["name"] == "From"), "desconhecido")
             assunto = next((h["value"] for h in headers if h["name"] == "Subject"), "[sem assunto]")
-            mensagem_txt = dados_msg.get("snippet", "")
+
+            partes = payload.get("parts", [])
             anexos_salvos = []
 
-            # Salva anexos PDF em CAMINHO_TEMP
-            for parte in payload.get("parts", []):
+            for parte in partes:
                 filename = parte.get("filename")
+                if not filename or not filename.lower().endswith(".pdf"):
+                    continue
+
                 body = parte.get("body", {})
-                if filename and 'data' in body:
-                    dados = base64.urlsafe_b64decode(body['data'])
-                    caminho = os.path.join(CAMINHO_TEMP, f"{msg['id']}_{filename}")
-                    with open(caminho, 'wb') as f:
-                        f.write(dados)
-                    anexos_salvos.append(caminho)
+                anexo_id = body.get("attachmentId")
+                if not anexo_id:
+                    continue
+
+                anexo = service.users().messages().attachments().get(
+                    userId="me", messageId=mensagem["id"], id=anexo_id
+                ).execute()
+
+                dados = anexo.get("data")
+                if not dados:
+                    continue
+
+                conteudo_bytes = base64.urlsafe_b64decode(dados.encode("UTF-8"))
+                
+                # Chama a função para salvar o anexo
+                caminho_salvo = salvar_anexos_pdf(filename, conteudo_bytes)
+                
+                # Adiciona à lista apenas se o arquivo foi salvo com sucesso
+                if caminho_salvo:
+                    anexos_salvos.append(caminho_salvo)
 
             if anexos_salvos:
-                saida.append({
+                emails_processados.append({
                     "remetente": remetente,
                     "assunto": assunto,
-                    "mensagem": mensagem_txt,
-                    "anexos_salvos": anexos_salvos
+                    "anexos": anexos_salvos
                 })
 
         except Exception as e:
-            print(f"⚠️ Erro ao processar e-mail: {e}")
+            print(f"⚠️ Erro inesperado ao processar o e-mail ID {mensagem.get('id', 'N/A')}: {e}")
+            traceback.print_exc()
 
-    return saida
-
-# ==== Integração externa: envia anexos para FastAPI ====
-def enviar_para_fastapi(lista_verificacao: str, anexos: list[str]) -> None:
-    """
-    Envia a lista de verificação e os documentos em anexo para a API /verificar da FastAPI.
-    Usado como cliente HTTP local.
-    """
-    url = "http://localhost:8000/verificar"
-
-    # Prepara os arquivos como multipart/form-data
-    files = [
-        ('documentos', (os.path.basename(arquivo), open(arquivo, 'rb'), 'application/pdf'))
-        for arquivo in anexos
-    ]
-    data = {'lista_verificacao': lista_verificacao}
-
-    try:
-        response = requests.post(url, data=data, files=files)
-        response.raise_for_status()
-        print("✅ Resposta da API:", response.json())
-    except Exception as e:
-        print("❌ Erro ao enviar para a API:", e)
-    finally:
-        for _, (nome, arquivo, _) in files:
-            arquivo.close()
+    return emails_processados
