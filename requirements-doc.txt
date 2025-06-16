@@ -1,30 +1,31 @@
 # === Backend com FastAPI ===
-fastapi==0.111.0
-uvicorn==0.30.1
+fastapi==0.115.12
+uvicorn==0.34.3
 
 # === Requisições HTTP internas ===
-requests==2.32.2
+requests==2.32.3
 
 # === Variáveis de ambiente ===
-python-dotenv==1.0.1
+python-dotenv==1.1.0
 
 # === Leitura e extração de texto de arquivos PDF ===
-PyMuPDF==1.26.1
-
-# === Leitura alternativa de PDF ===
+PyMuPDF==1.26.0
 PyPDF2==3.0.1
 
 # === Geração de PDF simples ===
 fpdf==1.7.2
 
+# === Geração de PDF com layout customizado ===
+reportlab==4.1.0
+
 # === Integração com Gmail API (email_reader.py) ===
-google-auth==2.29.0
-google-auth-oauthlib==1.2.0
-google-api-python-client==2.121.0
+google-auth==2.40.3
+google-auth-oauthlib==1.2.2
+google-api-python-client==2.171.0
 
 # === Gemini / Google Generative AI ===
 google-generativeai==0.5.4
 
 # === Testes ===
-pytest==8.2.1
-pytest-asyncio==0.23.7
+pytest==8.4.0
+pytest-asyncio==1.0.0
