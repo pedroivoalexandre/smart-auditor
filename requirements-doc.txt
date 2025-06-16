@@ -1,15 +1,18 @@
 # === Backend com FastAPI ===
 fastapi==0.111.0
-uvicorn==0.29.0
+uvicorn==0.30.1
 
 # === Requisições HTTP internas ===
-requests==2.32.3
+requests==2.32.2
 
 # === Variáveis de ambiente ===
 python-dotenv==1.0.1
 
 # === Leitura e extração de texto de arquivos PDF ===
-PyMuPDF==1.23.21
+PyMuPDF==1.26.1
+
+# === Leitura alternativa de PDF ===
+PyPDF2==3.0.1
 
 # === Geração de PDF simples ===
 fpdf==1.7.2
